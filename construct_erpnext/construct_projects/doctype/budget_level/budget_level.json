@@ -1,0 +1,119 @@
+{
+ "actions": [],
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "level_code",
+  "parent_level",
+  "level_name",
+  "level_type",
+  "insumo",
+  "column_break_qty",
+  "estimated_qty",
+  "estimated_unit_cost",
+  "estimated_total",
+  "column_break_real",
+  "real_qty",
+  "real_unit_cost",
+  "real_total",
+  "variance"
+ ],
+ "fields": [
+  {
+   "fieldname": "level_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Level Code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "parent_level",
+   "fieldtype": "Data",
+   "label": "Parent Level"
+  },
+  {
+   "fieldname": "level_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Level Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "level_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Level Type",
+   "options": "Materials\nLabor\nSubcontracts\nTools\nEquipment\nIndirect Costs\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "insumo",
+   "fieldtype": "Link",
+   "label": "Insumo",
+   "options": "Insumo"
+  },
+  {
+   "fieldname": "column_break_qty",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "estimated_qty",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Estimated Qty"
+  },
+  {
+   "fieldname": "estimated_unit_cost",
+   "fieldtype": "Currency",
+   "label": "Estimated Unit Cost"
+  },
+  {
+   "fieldname": "estimated_total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Estimated Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_real",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "real_qty",
+   "fieldtype": "Float",
+   "label": "Real Qty",
+   "read_only": 1
+  },
+  {
+   "fieldname": "real_unit_cost",
+   "fieldtype": "Currency",
+   "label": "Real Unit Cost",
+   "read_only": 1
+  },
+  {
+   "fieldname": "real_total",
+   "fieldtype": "Currency",
+   "label": "Real Total",
+   "read_only": 1
+  },
+  {
+   "fieldname": "variance",
+   "fieldtype": "Currency",
+   "label": "Variance",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Projects",
+ "name": "Budget Level",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "ASC",
+ "states": []
+}

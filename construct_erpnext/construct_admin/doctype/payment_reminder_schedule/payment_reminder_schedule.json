@@ -1,0 +1,142 @@
+{
+ "actions": [],
+ "autoname": "field:schedule_name",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "schedule_name",
+  "customer",
+  "active",
+  "column_break_timing",
+  "days_before_due",
+  "days_after_due_1",
+  "days_after_due_2",
+  "days_after_due_3",
+  "section_break_templates",
+  "email_template_before",
+  "column_break_templates",
+  "email_template_after",
+  "section_break_company",
+  "company"
+ ],
+ "fields": [
+  {
+   "fieldname": "schedule_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Schedule Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "default": 1,
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "Active"
+  },
+  {
+   "fieldname": "column_break_timing",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "7",
+   "fieldname": "days_before_due",
+   "fieldtype": "Int",
+   "label": "Days Before Due"
+  },
+  {
+   "default": "3",
+   "fieldname": "days_after_due_1",
+   "fieldtype": "Int",
+   "label": "Days After Due (1st)"
+  },
+  {
+   "default": "15",
+   "fieldname": "days_after_due_2",
+   "fieldtype": "Int",
+   "label": "Days After Due (2nd)"
+  },
+  {
+   "default": "30",
+   "fieldname": "days_after_due_3",
+   "fieldtype": "Int",
+   "label": "Days After Due (3rd)"
+  },
+  {
+   "fieldname": "section_break_templates",
+   "fieldtype": "Section Break",
+   "label": "Email Templates"
+  },
+  {
+   "fieldname": "email_template_before",
+   "fieldtype": "Link",
+   "label": "Email Template (Before Due)",
+   "options": "Email Template"
+  },
+  {
+   "fieldname": "column_break_templates",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "email_template_after",
+   "fieldtype": "Link",
+   "label": "Email Template (After Due)",
+   "options": "Email Template"
+  },
+  {
+   "fieldname": "section_break_company",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Admin",
+ "name": "Payment Reminder Schedule",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,40 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<div class="container mt-4">
+    <h2>My Invoices</h2>
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>Invoice</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th>Outstanding</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for inv in invoices %}
+            <tr>
+                <td>{{ inv.name }}</td>
+                <td>{{ frappe.format_value(inv.posting_date, {"fieldtype": "Date"}) }}</td>
+                <td>{{ frappe.format_value(inv.grand_total, {"fieldtype": "Currency"}) }}</td>
+                <td>{{ frappe.format_value(inv.outstanding_amount, {"fieldtype": "Currency"}) }}</td>
+                <td>
+                    {% if inv.outstanding_amount == 0 %}
+                    <span class="badge badge-success">Paid</span>
+                    {% elif inv.outstanding_amount < inv.grand_total %}
+                    <span class="badge badge-warning">Partial</span>
+                    {% else %}
+                    <span class="badge badge-danger">Unpaid</span>
+                    {% endif %}
+                </td>
+            </tr>
+            {% endfor %}
+            {% if not invoices %}
+            <tr><td colspan="5" class="text-muted">No invoices found.</td></tr>
+            {% endif %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

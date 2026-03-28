@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "user",
+  "user_fullname",
+  "active",
+  "column_break_access",
+  "document_access_level",
+  "can_authorize_advancement",
+  "section_break_projects",
+  "projects"
+ ],
+ "fields": [
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "User",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "user_fullname",
+   "fieldtype": "Data",
+   "fetch_from": "user.full_name",
+   "in_list_view": 1,
+   "label": "User Full Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "default": "1",
+   "in_list_view": 1,
+   "label": "Active"
+  },
+  {
+   "fieldname": "column_break_access",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "document_access_level",
+   "fieldtype": "Select",
+   "default": "Limited",
+   "label": "Document Access Level",
+   "options": "Full\nLimited\nNone"
+  },
+  {
+   "fieldname": "can_authorize_advancement",
+   "fieldtype": "Check",
+   "default": "0",
+   "label": "Can Authorize Advancement"
+  },
+  {
+   "fieldname": "section_break_projects",
+   "fieldtype": "Section Break",
+   "label": "Projects"
+  },
+  {
+   "fieldname": "projects",
+   "fieldtype": "Table",
+   "label": "Projects",
+   "options": "Client Portal Project"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Portal",
+ "name": "Client Portal Access",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Construction Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

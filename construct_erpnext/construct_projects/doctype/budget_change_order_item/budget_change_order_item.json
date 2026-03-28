@@ -1,0 +1,76 @@
+{
+ "actions": [],
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "budget_level_code",
+  "level_name",
+  "change_type",
+  "column_break_amounts",
+  "original_amount",
+  "new_amount",
+  "change_amount"
+ ],
+ "fields": [
+  {
+   "fieldname": "budget_level_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Budget Level Code",
+   "reqd": 1
+  },
+  {
+   "fieldname": "level_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Level Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "change_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Change Type",
+   "options": "Add\nModify\nRemove",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_amounts",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "original_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Original Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "new_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "New Amount",
+   "reqd": 1
+  },
+  {
+   "fieldname": "change_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Change Amount",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Projects",
+ "name": "Budget Change Order Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "ASC",
+ "states": []
+}

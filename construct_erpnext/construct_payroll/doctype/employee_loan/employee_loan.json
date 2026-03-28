@@ -1,0 +1,155 @@
+{
+ "actions": [],
+ "autoname": "EL-.#####",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "employee",
+  "employee_name",
+  "status",
+  "column_break_loan",
+  "loan_amount",
+  "interest_rate",
+  "installment_amount",
+  "deduction_start_date",
+  "section_break_balance",
+  "total_deducted",
+  "column_break_remaining",
+  "remaining_balance",
+  "installments_remaining",
+  "section_break_company",
+  "company"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Employee",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "employee.employee_name",
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Employee Name",
+   "read_only": 1
+  },
+  {
+   "default": "Active",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Active\nFully Paid\nCancelled"
+  },
+  {
+   "fieldname": "column_break_loan",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "loan_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Loan Amount",
+   "reqd": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "interest_rate",
+   "fieldtype": "Percent",
+   "label": "Interest Rate"
+  },
+  {
+   "fieldname": "installment_amount",
+   "fieldtype": "Currency",
+   "label": "Installment Amount",
+   "reqd": 1
+  },
+  {
+   "fieldname": "deduction_start_date",
+   "fieldtype": "Date",
+   "label": "Deduction Start Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_balance",
+   "fieldtype": "Section Break",
+   "label": "Balance"
+  },
+  {
+   "default": "0",
+   "fieldname": "total_deducted",
+   "fieldtype": "Currency",
+   "label": "Total Deducted",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_remaining",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "remaining_balance",
+   "fieldtype": "Currency",
+   "label": "Remaining Balance",
+   "read_only": 1
+  },
+  {
+   "fieldname": "installments_remaining",
+   "fieldtype": "Int",
+   "label": "Installments Remaining",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_company",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Payroll",
+ "name": "Employee Loan",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "HR Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

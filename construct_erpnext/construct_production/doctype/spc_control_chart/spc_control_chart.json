@@ -1,0 +1,161 @@
+{
+ "actions": [],
+ "autoname": "field:chart_name",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "chart_name",
+  "process",
+  "measurement_type",
+  "column_break_1",
+  "status",
+  "work_order",
+  "section_break_control_limits",
+  "upper_control_limit",
+  "center_line",
+  "lower_control_limit",
+  "column_break_2",
+  "sample_size",
+  "section_break_data",
+  "data_points",
+  "section_break_description",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "chart_name",
+   "fieldtype": "Data",
+   "label": "Chart Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "process",
+   "fieldtype": "Data",
+   "label": "Process",
+   "reqd": 1
+  },
+  {
+   "fieldname": "measurement_type",
+   "fieldtype": "Data",
+   "label": "Measurement Type",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nIn Control\nOut of Control\nArchived",
+   "default": "Active",
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "work_order",
+   "fieldtype": "Link",
+   "label": "Work Order",
+   "options": "Work Order"
+  },
+  {
+   "fieldname": "section_break_control_limits",
+   "fieldtype": "Section Break",
+   "label": "Control Limits"
+  },
+  {
+   "fieldname": "upper_control_limit",
+   "fieldtype": "Float",
+   "label": "Upper Control Limit",
+   "reqd": 1
+  },
+  {
+   "fieldname": "center_line",
+   "fieldtype": "Float",
+   "label": "Center Line",
+   "reqd": 1
+  },
+  {
+   "fieldname": "lower_control_limit",
+   "fieldtype": "Float",
+   "label": "Lower Control Limit",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "sample_size",
+   "fieldtype": "Int",
+   "label": "Sample Size",
+   "default": "5"
+  },
+  {
+   "fieldname": "section_break_data",
+   "fieldtype": "Section Break",
+   "label": "Data Points"
+  },
+  {
+   "fieldname": "data_points",
+   "fieldtype": "Table",
+   "label": "Data Points",
+   "options": "SPC Data Point"
+  },
+  {
+   "fieldname": "section_break_description",
+   "fieldtype": "Section Break",
+   "label": "Description"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Production",
+ "name": "SPC Control Chart",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Manufacturing Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Manufacturing User"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,187 @@
+{
+ "actions": [],
+ "autoname": "field:routine_name",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "routine_name",
+  "asset",
+  "asset_component",
+  "column_break_1",
+  "routine_type",
+  "methodology",
+  "frequency",
+  "active",
+  "section_break_schedule",
+  "estimated_duration_hours",
+  "column_break_schedule",
+  "last_performed",
+  "next_due",
+  "section_break_company",
+  "company",
+  "section_break_steps",
+  "procedure_steps",
+  "section_break_parts",
+  "required_spare_parts"
+ ],
+ "fields": [
+  {
+   "fieldname": "routine_name",
+   "fieldtype": "Data",
+   "label": "Routine Name",
+   "reqd": 1,
+   "unique": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "asset",
+   "fieldtype": "Link",
+   "label": "Asset",
+   "options": "Asset",
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "asset_component",
+   "fieldtype": "Link",
+   "label": "Asset Component",
+   "options": "Asset Component"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "routine_type",
+   "fieldtype": "Select",
+   "label": "Routine Type",
+   "options": "Preventive\nCorrective",
+   "reqd": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "methodology",
+   "fieldtype": "Select",
+   "label": "Methodology",
+   "options": "RCM\nTPM\nRCA\nRBI\nGeneral",
+   "default": "General",
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "frequency",
+   "fieldtype": "Select",
+   "label": "Frequency",
+   "options": "Daily\nWeekly\nMonthly\nQuarterly\nSemi-Annual\nAnnual",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "label": "Active",
+   "default": "1"
+  },
+  {
+   "fieldname": "section_break_schedule",
+   "fieldtype": "Section Break",
+   "label": "Schedule"
+  },
+  {
+   "fieldname": "estimated_duration_hours",
+   "fieldtype": "Float",
+   "label": "Estimated Duration (Hours)"
+  },
+  {
+   "fieldname": "column_break_schedule",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "last_performed",
+   "fieldtype": "Date",
+   "label": "Last Performed",
+   "read_only": 1
+  },
+  {
+   "fieldname": "next_due",
+   "fieldtype": "Date",
+   "label": "Next Due"
+  },
+  {
+   "fieldname": "section_break_company",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "section_break_steps",
+   "fieldtype": "Section Break",
+   "label": "Procedure Steps"
+  },
+  {
+   "fieldname": "procedure_steps",
+   "fieldtype": "Table",
+   "label": "Procedure Steps",
+   "options": "Maintenance Procedure Step"
+  },
+  {
+   "fieldname": "section_break_parts",
+   "fieldtype": "Section Break",
+   "label": "Required Spare Parts"
+  },
+  {
+   "fieldname": "required_spare_parts",
+   "fieldtype": "Table",
+   "label": "Required Spare Parts",
+   "options": "Maintenance Spare Part"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Maintenance",
+ "name": "Maintenance Routine",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Maintenance Engineer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Maintenance User"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

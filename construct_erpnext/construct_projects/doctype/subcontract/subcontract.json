@@ -1,0 +1,182 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "project",
+  "contractor",
+  "contractor_name",
+  "contract_title",
+  "contract_status",
+  "company",
+  "column_break_amounts",
+  "negotiated_amount",
+  "paid_amount",
+  "remaining_amount",
+  "start_date",
+  "end_date",
+  "section_break_activities",
+  "activities",
+  "section_break_terms",
+  "terms"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "SC-.YYYY.-.####.",
+   "default": "SC-.YYYY.-.####.",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Project",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contractor",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Contractor",
+   "options": "Supplier",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contractor_name",
+   "fieldtype": "Data",
+   "fetch_from": "contractor.supplier_name",
+   "in_list_view": 1,
+   "label": "Contractor Name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "contract_title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contract Title",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contract_status",
+   "fieldtype": "Select",
+   "default": "Draft",
+   "in_standard_filter": 1,
+   "label": "Contract Status",
+   "options": "Draft\nAuthorized\nActive\nCompleted\nCancelled"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_amounts",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "negotiated_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Negotiated Amount",
+   "reqd": 1
+  },
+  {
+   "fieldname": "paid_amount",
+   "fieldtype": "Currency",
+   "label": "Paid Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "remaining_amount",
+   "fieldtype": "Currency",
+   "label": "Remaining Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "label": "Start Date"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "label": "End Date"
+  },
+  {
+   "fieldname": "section_break_activities",
+   "fieldtype": "Section Break",
+   "label": "Activities"
+  },
+  {
+   "fieldname": "activities",
+   "fieldtype": "Table",
+   "label": "Activities",
+   "options": "Subcontract Activity"
+  },
+  {
+   "fieldname": "section_break_terms",
+   "fieldtype": "Section Break",
+   "label": "Terms & Conditions",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "terms",
+   "fieldtype": "Text Editor",
+   "label": "Terms"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Projects",
+ "name": "Subcontract",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Construction Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

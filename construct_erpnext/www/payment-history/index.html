@@ -1,0 +1,32 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<div class="container mt-4">
+    <h2>Payment History</h2>
+    <table class="table table-striped mt-3">
+        <thead>
+            <tr>
+                <th>Payment</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th>Mode</th>
+                <th>Reference</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for pe in payments %}
+            <tr>
+                <td>{{ pe.name }}</td>
+                <td>{{ frappe.format_value(pe.posting_date, {"fieldtype": "Date"}) }}</td>
+                <td>{{ frappe.format_value(pe.paid_amount, {"fieldtype": "Currency"}) }}</td>
+                <td>{{ pe.mode_of_payment or "" }}</td>
+                <td>{{ pe.reference_no or "" }}</td>
+            </tr>
+            {% endfor %}
+            {% if not payments %}
+            <tr><td colspan="5" class="text-muted">No payments found.</td></tr>
+            {% endif %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,229 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "title",
+  "methodology",
+  "column_break_1",
+  "status",
+  "priority",
+  "assigned_to",
+  "due_date",
+  "section_break_references",
+  "work_order",
+  "quality_action",
+  "column_break_refs",
+  "company",
+  "section_break_problem",
+  "problem_statement",
+  "section_break_root_cause",
+  "root_cause",
+  "section_break_containment",
+  "containment_action",
+  "section_break_permanent",
+  "permanent_action",
+  "section_break_verification",
+  "effectiveness_verification",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "CAT-.YYYY.-.#####",
+   "default": "CAT-.YYYY.-.#####",
+   "reqd": 1
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "methodology",
+   "fieldtype": "Select",
+   "label": "Methodology",
+   "options": "Six Sigma\nTQM\nSPC\nLean Manufacturing\nKaizen",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Open\nIn Progress\nContainment\nRoot Cause Analysis\nCorrective Action\nVerification\nClosed",
+   "default": "Open",
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "priority",
+   "fieldtype": "Select",
+   "label": "Priority",
+   "options": "Low\nMedium\nHigh\nCritical",
+   "default": "Medium",
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "assigned_to",
+   "fieldtype": "Link",
+   "label": "Assigned To",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "due_date",
+   "fieldtype": "Date",
+   "label": "Due Date"
+  },
+  {
+   "fieldname": "section_break_references",
+   "fieldtype": "Section Break",
+   "label": "References"
+  },
+  {
+   "fieldname": "work_order",
+   "fieldtype": "Link",
+   "label": "Work Order",
+   "options": "Work Order"
+  },
+  {
+   "fieldname": "quality_action",
+   "fieldtype": "Link",
+   "label": "Quality Action",
+   "options": "Quality Action"
+  },
+  {
+   "fieldname": "column_break_refs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "section_break_problem",
+   "fieldtype": "Section Break",
+   "label": "Problem Statement"
+  },
+  {
+   "fieldname": "problem_statement",
+   "fieldtype": "Text Editor",
+   "label": "Problem Statement",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_root_cause",
+   "fieldtype": "Section Break",
+   "label": "Root Cause"
+  },
+  {
+   "fieldname": "root_cause",
+   "fieldtype": "Text Editor",
+   "label": "Root Cause"
+  },
+  {
+   "fieldname": "section_break_containment",
+   "fieldtype": "Section Break",
+   "label": "Containment Action"
+  },
+  {
+   "fieldname": "containment_action",
+   "fieldtype": "Text Editor",
+   "label": "Containment Action"
+  },
+  {
+   "fieldname": "section_break_permanent",
+   "fieldtype": "Section Break",
+   "label": "Permanent Corrective Action"
+  },
+  {
+   "fieldname": "permanent_action",
+   "fieldtype": "Text Editor",
+   "label": "Permanent Action"
+  },
+  {
+   "fieldname": "section_break_verification",
+   "fieldtype": "Section Break",
+   "label": "Effectiveness Verification"
+  },
+  {
+   "fieldname": "effectiveness_verification",
+   "fieldtype": "Text Editor",
+   "label": "Effectiveness Verification"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Corrective Action Tracker",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Production",
+ "name": "Corrective Action Tracker",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1,
+   "cancel": 1,
+   "amend": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Manufacturing Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1,
+   "cancel": 1,
+   "amend": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Manufacturing User",
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

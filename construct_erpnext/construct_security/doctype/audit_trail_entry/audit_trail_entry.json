@@ -1,0 +1,119 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tracked_doctype",
+  "tracked_name",
+  "operation",
+  "field_name",
+  "column_break_values",
+  "old_value",
+  "new_value",
+  "section_break_meta",
+  "changed_by",
+  "change_timestamp",
+  "column_break_session",
+  "ip_address",
+  "session_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "tracked_doctype",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tracked DocType",
+   "reqd": 1
+  },
+  {
+   "fieldname": "tracked_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tracked Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "operation",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Operation",
+   "options": "Insert\nUpdate\nDelete",
+   "reqd": 1
+  },
+  {
+   "fieldname": "field_name",
+   "fieldtype": "Data",
+   "label": "Field Name"
+  },
+  {
+   "fieldname": "column_break_values",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "old_value",
+   "fieldtype": "Long Text",
+   "label": "Old Value"
+  },
+  {
+   "fieldname": "new_value",
+   "fieldtype": "Long Text",
+   "label": "New Value"
+  },
+  {
+   "fieldname": "section_break_meta",
+   "fieldtype": "Section Break",
+   "label": "Metadata"
+  },
+  {
+   "fieldname": "changed_by",
+   "fieldtype": "Link",
+   "label": "Changed By",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "change_timestamp",
+   "fieldtype": "Datetime",
+   "label": "Change Timestamp",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_session",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "ip_address",
+   "fieldtype": "Data",
+   "label": "IP Address"
+  },
+  {
+   "fieldname": "session_id",
+   "fieldtype": "Data",
+   "label": "Session ID"
+  }
+ ],
+ "in_create": 1,
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Security",
+ "name": "Audit Trail Entry",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "read": 1,
+   "report": 1,
+   "export": 1,
+   "role": "Audit Administrator"
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

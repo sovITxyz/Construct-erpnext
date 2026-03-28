@@ -1,0 +1,125 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "date_range_start",
+  "date_range_end",
+  "doctype_filter",
+  "user_filter",
+  "column_break_export",
+  "export_format",
+  "exported_file",
+  "section_break_details",
+  "exported_by",
+  "export_date",
+  "record_count"
+ ],
+ "fields": [
+  {
+   "fieldname": "date_range_start",
+   "fieldtype": "Date",
+   "label": "Date Range Start",
+   "reqd": 1
+  },
+  {
+   "fieldname": "date_range_end",
+   "fieldtype": "Date",
+   "label": "Date Range End",
+   "reqd": 1
+  },
+  {
+   "fieldname": "doctype_filter",
+   "fieldtype": "Link",
+   "label": "DocType Filter",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "user_filter",
+   "fieldtype": "Link",
+   "label": "User Filter",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_export",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "export_format",
+   "fieldtype": "Select",
+   "default": "CSV",
+   "label": "Export Format",
+   "options": "CSV\nJSON"
+  },
+  {
+   "fieldname": "exported_file",
+   "fieldtype": "Attach",
+   "label": "Exported File",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_details",
+   "fieldtype": "Section Break",
+   "label": "Export Details"
+  },
+  {
+   "fieldname": "exported_by",
+   "fieldtype": "Link",
+   "label": "Exported By",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "export_date",
+   "fieldtype": "Datetime",
+   "label": "Export Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "record_count",
+   "fieldtype": "Int",
+   "label": "Record Count",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Security",
+ "name": "Audit Trail Export",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Audit Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

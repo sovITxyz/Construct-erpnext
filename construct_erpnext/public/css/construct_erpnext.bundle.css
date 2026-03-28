@@ -1,0 +1,29 @@
+/* Construct ERPNext - Global Styles */
+
+/* Portal card styling */
+.project-portal .card {
+    transition: box-shadow 0.2s ease;
+}
+
+.project-portal .card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Progress bar colors */
+.progress-bar {
+    background-color: #0B5394;
+}
+
+/* Badge improvements */
+.badge-success {
+    background-color: #28a745;
+}
+
+.badge-warning {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.badge-danger {
+    background-color: #dc3545;
+}

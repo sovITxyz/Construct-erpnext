@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "parameter_name",
+  "parameter_value",
+  "unit",
+  "within_spec"
+ ],
+ "fields": [
+  {
+   "fieldname": "parameter_name",
+   "fieldtype": "Data",
+   "label": "Parameter Name",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "parameter_value",
+   "fieldtype": "Data",
+   "label": "Parameter Value",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "unit",
+   "fieldtype": "Data",
+   "label": "Unit",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "within_spec",
+   "fieldtype": "Check",
+   "label": "Within Spec",
+   "default": "1",
+   "in_list_view": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Production",
+ "name": "Process Parameter",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

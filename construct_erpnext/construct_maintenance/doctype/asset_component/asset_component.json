@@ -1,0 +1,140 @@
+{
+ "actions": [],
+ "autoname": "format:{component_name}-{parent_asset}",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "component_name",
+  "parent_asset",
+  "parent_component",
+  "column_break_1",
+  "component_type",
+  "serial_no",
+  "criticality",
+  "status",
+  "section_break_characteristics",
+  "characteristics",
+  "section_break_description",
+  "description"
+ ],
+ "fields": [
+  {
+   "fieldname": "component_name",
+   "fieldtype": "Data",
+   "label": "Component Name",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "parent_asset",
+   "fieldtype": "Link",
+   "label": "Parent Asset",
+   "options": "Asset",
+   "reqd": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "parent_component",
+   "fieldtype": "Link",
+   "label": "Parent Component",
+   "options": "Asset Component"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "component_type",
+   "fieldtype": "Data",
+   "label": "Component Type"
+  },
+  {
+   "fieldname": "serial_no",
+   "fieldtype": "Data",
+   "label": "Serial No"
+  },
+  {
+   "fieldname": "criticality",
+   "fieldtype": "Select",
+   "label": "Criticality",
+   "options": "Low\nMedium\nHigh\nCritical",
+   "default": "Medium",
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Active\nInactive\nUnder Repair\nRetired",
+   "default": "Active",
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "section_break_characteristics",
+   "fieldtype": "Section Break",
+   "label": "Characteristics"
+  },
+  {
+   "fieldname": "characteristics",
+   "fieldtype": "Table",
+   "label": "Characteristics",
+   "options": "Asset Component Characteristic"
+  },
+  {
+   "fieldname": "section_break_description",
+   "fieldtype": "Section Break",
+   "label": "Description"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Maintenance",
+ "name": "Asset Component",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Maintenance Engineer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Maintenance User"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

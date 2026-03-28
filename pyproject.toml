@@ -1,0 +1,17 @@
+[project]
+name = "construct_erpnext"
+authors = [
+    { name = "Sovereign IT Services", email = "git@sovit.xyz" }
+]
+description = "Construction ERP portal for ERPNext v16"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.bench]
+app-name = "construct_erpnext"
+required-apps = ["frappe", "erpnext", "hrms"]

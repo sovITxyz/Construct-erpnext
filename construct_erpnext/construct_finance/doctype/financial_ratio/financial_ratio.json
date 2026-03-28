@@ -1,0 +1,117 @@
+{
+ "actions": [],
+ "autoname": "field:ratio_name",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "ratio_name",
+  "ratio_category",
+  "period_type",
+  "column_break_details",
+  "benchmark_value",
+  "description",
+  "section_break_formula",
+  "formula",
+  "section_break_company",
+  "company"
+ ],
+ "fields": [
+  {
+   "fieldname": "ratio_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Ratio Name",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "ratio_category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Ratio Category",
+   "options": "Liquidity\nProfitability\nSolvency\nEfficiency\nCustom",
+   "reqd": 1
+  },
+  {
+   "default": "Monthly",
+   "fieldname": "period_type",
+   "fieldtype": "Select",
+   "label": "Period Type",
+   "options": "Monthly\nQuarterly\nAnnual"
+  },
+  {
+   "fieldname": "column_break_details",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "benchmark_value",
+   "fieldtype": "Float",
+   "label": "Benchmark Value"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_formula",
+   "fieldtype": "Section Break",
+   "label": "Formula"
+  },
+  {
+   "fieldname": "formula",
+   "fieldtype": "Small Text",
+   "label": "Formula",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_company",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Finance",
+ "name": "Financial Ratio",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

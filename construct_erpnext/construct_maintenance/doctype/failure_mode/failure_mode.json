@@ -1,0 +1,172 @@
+{
+ "actions": [],
+ "autoname": "field:failure_mode_name",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "failure_mode_name",
+  "asset_category",
+  "column_break_1",
+  "rpn_score",
+  "section_break_description",
+  "failure_description",
+  "section_break_effect",
+  "failure_effect",
+  "section_break_ratings",
+  "severity",
+  "occurrence_probability",
+  "column_break_ratings",
+  "detection_rating",
+  "section_break_detection",
+  "detection_method",
+  "section_break_action",
+  "recommended_action"
+ ],
+ "fields": [
+  {
+   "fieldname": "failure_mode_name",
+   "fieldtype": "Data",
+   "label": "Failure Mode Name",
+   "reqd": 1,
+   "unique": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "asset_category",
+   "fieldtype": "Link",
+   "label": "Asset Category",
+   "options": "Asset Category",
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "rpn_score",
+   "fieldtype": "Int",
+   "label": "RPN Score",
+   "read_only": 1,
+   "in_list_view": 1,
+   "bold": 1,
+   "description": "Risk Priority Number = Severity x Occurrence x Detection"
+  },
+  {
+   "fieldname": "section_break_description",
+   "fieldtype": "Section Break",
+   "label": "Failure Description"
+  },
+  {
+   "fieldname": "failure_description",
+   "fieldtype": "Text Editor",
+   "label": "Failure Description",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_effect",
+   "fieldtype": "Section Break",
+   "label": "Failure Effect"
+  },
+  {
+   "fieldname": "failure_effect",
+   "fieldtype": "Text Editor",
+   "label": "Failure Effect"
+  },
+  {
+   "fieldname": "section_break_ratings",
+   "fieldtype": "Section Break",
+   "label": "FMEA Ratings (1-10)"
+  },
+  {
+   "fieldname": "severity",
+   "fieldtype": "Int",
+   "label": "Severity",
+   "reqd": 1,
+   "in_list_view": 1,
+   "description": "1 (lowest) to 10 (highest)"
+  },
+  {
+   "fieldname": "occurrence_probability",
+   "fieldtype": "Int",
+   "label": "Occurrence Probability",
+   "reqd": 1,
+   "in_list_view": 1,
+   "description": "1 (lowest) to 10 (highest)"
+  },
+  {
+   "fieldname": "column_break_ratings",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "detection_rating",
+   "fieldtype": "Int",
+   "label": "Detection Rating",
+   "reqd": 1,
+   "in_list_view": 1,
+   "description": "1 (easy to detect) to 10 (hard to detect)"
+  },
+  {
+   "fieldname": "section_break_detection",
+   "fieldtype": "Section Break",
+   "label": "Detection Method"
+  },
+  {
+   "fieldname": "detection_method",
+   "fieldtype": "Text Editor",
+   "label": "Detection Method"
+  },
+  {
+   "fieldname": "section_break_action",
+   "fieldtype": "Section Break",
+   "label": "Recommended Action"
+  },
+  {
+   "fieldname": "recommended_action",
+   "fieldtype": "Text Editor",
+   "label": "Recommended Action"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Maintenance",
+ "name": "Failure Mode",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Maintenance Engineer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Maintenance User"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

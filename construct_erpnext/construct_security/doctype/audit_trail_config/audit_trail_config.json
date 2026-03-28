@@ -1,0 +1,113 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "field:tracked_doctype",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "tracked_doctype",
+  "active",
+  "column_break_tracking",
+  "track_all_fields",
+  "section_break_fields",
+  "specific_fields",
+  "section_break_activation",
+  "activated_by",
+  "activated_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "tracked_doctype",
+   "fieldtype": "Link",
+   "label": "Tracked DocType",
+   "options": "DocType",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "active",
+   "fieldtype": "Check",
+   "default": "1",
+   "label": "Active"
+  },
+  {
+   "fieldname": "column_break_tracking",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "track_all_fields",
+   "fieldtype": "Check",
+   "default": "1",
+   "label": "Track All Fields"
+  },
+  {
+   "fieldname": "section_break_fields",
+   "fieldtype": "Section Break",
+   "label": "Specific Fields",
+   "depends_on": "eval:!doc.track_all_fields"
+  },
+  {
+   "fieldname": "specific_fields",
+   "fieldtype": "Table",
+   "label": "Specific Fields",
+   "options": "Audit Trail Field"
+  },
+  {
+   "fieldname": "section_break_activation",
+   "fieldtype": "Section Break",
+   "label": "Activation Details",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "activated_by",
+   "fieldtype": "Link",
+   "label": "Activated By",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "activated_date",
+   "fieldtype": "Date",
+   "label": "Activated Date",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Security",
+ "name": "Audit Trail Config",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Audit Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

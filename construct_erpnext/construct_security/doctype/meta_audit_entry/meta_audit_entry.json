@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "action",
+  "audit_entry_reference",
+  "details",
+  "column_break_meta",
+  "performed_by",
+  "action_timestamp"
+ ],
+ "fields": [
+  {
+   "fieldname": "action",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Action",
+   "options": "View\nExport\nConfig Change",
+   "reqd": 1
+  },
+  {
+   "fieldname": "audit_entry_reference",
+   "fieldtype": "Data",
+   "label": "Audit Entry Reference"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Small Text",
+   "label": "Details"
+  },
+  {
+   "fieldname": "column_break_meta",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "performed_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Performed By",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "action_timestamp",
+   "fieldtype": "Datetime",
+   "in_list_view": 1,
+   "label": "Action Timestamp",
+   "reqd": 1
+  }
+ ],
+ "in_create": 1,
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Security",
+ "name": "Meta Audit Entry",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "read": 1,
+   "report": 1,
+   "export": 1,
+   "create": 1,
+   "write": 1,
+   "role": "Audit Administrator"
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

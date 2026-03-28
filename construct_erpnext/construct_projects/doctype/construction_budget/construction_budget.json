@@ -1,0 +1,197 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "project",
+  "budget_name",
+  "budget_status",
+  "company",
+  "currency",
+  "column_break_totals",
+  "total_estimated_amount",
+  "total_real_cost",
+  "variance_amount",
+  "variance_pct",
+  "section_break_frozen",
+  "frozen_date",
+  "frozen_by",
+  "section_break_levels",
+  "budget_levels",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "CB-.YYYY.-.####.",
+   "default": "CB-.YYYY.-.####.",
+   "reqd": 1
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Project",
+   "options": "Project",
+   "reqd": 1
+  },
+  {
+   "fieldname": "budget_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Budget Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "budget_status",
+   "fieldtype": "Select",
+   "default": "Draft",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Budget Status",
+   "options": "Draft\nFrozen\nActive\nAmended"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1
+  },
+  {
+   "fieldname": "currency",
+   "fieldtype": "Link",
+   "label": "Currency",
+   "options": "Currency"
+  },
+  {
+   "fieldname": "column_break_totals",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_estimated_amount",
+   "fieldtype": "Currency",
+   "label": "Total Estimated Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_real_cost",
+   "fieldtype": "Currency",
+   "label": "Total Real Cost",
+   "read_only": 1
+  },
+  {
+   "fieldname": "variance_amount",
+   "fieldtype": "Currency",
+   "label": "Variance Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "variance_pct",
+   "fieldtype": "Percent",
+   "label": "Variance %",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_frozen",
+   "fieldtype": "Section Break",
+   "label": "Freeze Details",
+   "collapsible": 1
+  },
+  {
+   "fieldname": "frozen_date",
+   "fieldtype": "Date",
+   "label": "Frozen Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "frozen_by",
+   "fieldtype": "Link",
+   "label": "Frozen By",
+   "options": "User",
+   "read_only": 1
+  },
+  {
+   "fieldname": "section_break_levels",
+   "fieldtype": "Section Break",
+   "label": "Budget Levels"
+  },
+  {
+   "fieldname": "budget_levels",
+   "fieldtype": "Table",
+   "label": "Budget Levels",
+   "options": "Budget Level",
+   "reqd": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Construction Budget",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Projects",
+ "name": "Construction Budget",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Construction Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Budget Controller",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

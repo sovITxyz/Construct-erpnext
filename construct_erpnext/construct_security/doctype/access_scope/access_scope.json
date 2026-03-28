@@ -1,0 +1,99 @@
+{
+ "actions": [],
+ "allow_rename": 0,
+ "autoname": "hash",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "user",
+  "scope_type",
+  "scope_doctype",
+  "scope_name",
+  "column_break_perm",
+  "permission_level"
+ ],
+ "fields": [
+  {
+   "fieldname": "user",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "User",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "scope_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Scope Type",
+   "options": "Company\nProject\nFacility\nModule",
+   "reqd": 1
+  },
+  {
+   "fieldname": "scope_doctype",
+   "fieldtype": "Link",
+   "label": "Scope DocType",
+   "options": "DocType"
+  },
+  {
+   "fieldname": "scope_name",
+   "fieldtype": "Dynamic Link",
+   "in_list_view": 1,
+   "label": "Scope Name",
+   "options": "scope_doctype"
+  },
+  {
+   "fieldname": "column_break_perm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "permission_level",
+   "fieldtype": "Select",
+   "default": "Read",
+   "in_list_view": 1,
+   "label": "Permission Level",
+   "options": "Read\nWrite\nFull"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Security",
+ "name": "Access Scope",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Audit Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

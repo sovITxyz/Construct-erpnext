@@ -1,0 +1,170 @@
+{
+ "actions": [],
+ "autoname": "format:{checklist_name}-{standard}-{clause}",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "checklist_name",
+  "standard",
+  "clause",
+  "column_break_1",
+  "compliance_status",
+  "responsible_person",
+  "company",
+  "section_break_requirement",
+  "requirement",
+  "section_break_evidence",
+  "evidence_document",
+  "section_break_schedule",
+  "audit_date",
+  "column_break_schedule",
+  "next_review",
+  "section_break_remarks",
+  "remarks"
+ ],
+ "fields": [
+  {
+   "fieldname": "checklist_name",
+   "fieldtype": "Data",
+   "label": "Checklist Name",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "standard",
+   "fieldtype": "Select",
+   "label": "Standard",
+   "options": "ISO 55000\nPAS 55\nUNE-EN\nOther",
+   "reqd": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "clause",
+   "fieldtype": "Data",
+   "label": "Clause",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "compliance_status",
+   "fieldtype": "Select",
+   "label": "Compliance Status",
+   "options": "Compliant\nPartially Compliant\nNon-Compliant\nNot Assessed",
+   "default": "Not Assessed",
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "responsible_person",
+   "fieldtype": "Link",
+   "label": "Responsible Person",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "section_break_requirement",
+   "fieldtype": "Section Break",
+   "label": "Requirement"
+  },
+  {
+   "fieldname": "requirement",
+   "fieldtype": "Text Editor",
+   "label": "Requirement",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_evidence",
+   "fieldtype": "Section Break",
+   "label": "Evidence"
+  },
+  {
+   "fieldname": "evidence_document",
+   "fieldtype": "Attach",
+   "label": "Evidence Document"
+  },
+  {
+   "fieldname": "section_break_schedule",
+   "fieldtype": "Section Break",
+   "label": "Audit Schedule"
+  },
+  {
+   "fieldname": "audit_date",
+   "fieldtype": "Date",
+   "label": "Audit Date"
+  },
+  {
+   "fieldname": "column_break_schedule",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "next_review",
+   "fieldtype": "Date",
+   "label": "Next Review"
+  },
+  {
+   "fieldname": "section_break_remarks",
+   "fieldtype": "Section Break",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Small Text",
+   "label": "Remarks"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Maintenance",
+ "name": "ISO Compliance Checklist",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Maintenance Engineer",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Maintenance User"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,0 +1,32 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<div class="container mt-4">
+    <h2>Documents</h2>
+    <p class="text-muted">Access your project documents, contracts, and reports.</p>
+    {% for project in projects %}
+    <div class="card mb-3">
+        <div class="card-header">
+            <h5>{{ project.project_name }}</h5>
+        </div>
+        <div class="card-body">
+            {% if project.files %}
+            <ul class="list-group">
+                {% for file in project.files %}
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    {{ file.file_name }}
+                    <a href="{{ file.file_url }}" class="btn btn-sm btn-outline-primary" target="_blank">Download</a>
+                </li>
+                {% endfor %}
+            </ul>
+            {% else %}
+            <p class="text-muted">No documents available.</p>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+    {% if not projects %}
+    <p class="text-muted">No projects found.</p>
+    {% endif %}
+</div>
+{% endblock %}

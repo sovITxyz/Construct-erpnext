@@ -1,0 +1,66 @@
+{
+ "actions": [],
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "file_type",
+  "file_attachment",
+  "description",
+  "column_break_meta",
+  "upload_date",
+  "uploaded_by"
+ ],
+ "fields": [
+  {
+   "fieldname": "file_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "File Type",
+   "options": "Photo\nVideo\nDocument\nManual\nCertificate\nOther",
+   "reqd": 1
+  },
+  {
+   "fieldname": "file_attachment",
+   "fieldtype": "Attach",
+   "in_list_view": 1,
+   "label": "File Attachment",
+   "reqd": 1
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "column_break_meta",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Today",
+   "fieldname": "upload_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Upload Date"
+  },
+  {
+   "default": "__user",
+   "fieldname": "uploaded_by",
+   "fieldtype": "Link",
+   "label": "Uploaded By",
+   "options": "User"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Admin",
+ "name": "Asset Digital Library Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "ASC",
+ "states": []
+}

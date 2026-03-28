@@ -1,0 +1,183 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "work_order",
+  "process_name",
+  "column_break_1",
+  "output_batch",
+  "bom",
+  "company",
+  "section_break_operator",
+  "operator",
+  "column_break_times",
+  "process_start",
+  "process_end",
+  "section_break_inputs",
+  "input_batches",
+  "section_break_params",
+  "process_parameters",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "PTL-.YYYY.-.#####",
+   "default": "PTL-.YYYY.-.#####",
+   "reqd": 1
+  },
+  {
+   "fieldname": "work_order",
+   "fieldtype": "Link",
+   "label": "Work Order",
+   "options": "Work Order",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "process_name",
+   "fieldtype": "Data",
+   "label": "Process Name",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "output_batch",
+   "fieldtype": "Data",
+   "label": "Output Batch",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "bom",
+   "fieldtype": "Link",
+   "label": "BOM",
+   "options": "BOM"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "section_break_operator",
+   "fieldtype": "Section Break",
+   "label": "Operator & Timing"
+  },
+  {
+   "fieldname": "operator",
+   "fieldtype": "Link",
+   "label": "Operator",
+   "options": "Employee",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_times",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "process_start",
+   "fieldtype": "Datetime",
+   "label": "Process Start",
+   "reqd": 1
+  },
+  {
+   "fieldname": "process_end",
+   "fieldtype": "Datetime",
+   "label": "Process End"
+  },
+  {
+   "fieldname": "section_break_inputs",
+   "fieldtype": "Section Break",
+   "label": "Input Batches"
+  },
+  {
+   "fieldname": "input_batches",
+   "fieldtype": "Table",
+   "label": "Input Batches",
+   "options": "Traceability Batch Item"
+  },
+  {
+   "fieldname": "section_break_params",
+   "fieldtype": "Section Break",
+   "label": "Process Parameters"
+  },
+  {
+   "fieldname": "process_parameters",
+   "fieldtype": "Table",
+   "label": "Process Parameters",
+   "options": "Process Parameter"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Process Traceability Log",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Production",
+ "name": "Process Traceability Log",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1,
+   "cancel": 1,
+   "amend": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Manufacturing Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1,
+   "cancel": 1,
+   "amend": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Manufacturing User"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

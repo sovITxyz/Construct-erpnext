@@ -1,0 +1,67 @@
+{
+ "actions": [],
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "sample_date",
+  "measured_value",
+  "sample_number",
+  "operator",
+  "in_control",
+  "notes"
+ ],
+ "fields": [
+  {
+   "fieldname": "sample_date",
+   "fieldtype": "Datetime",
+   "label": "Sample Date",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "measured_value",
+   "fieldtype": "Float",
+   "label": "Measured Value",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "sample_number",
+   "fieldtype": "Int",
+   "label": "Sample Number",
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "operator",
+   "fieldtype": "Link",
+   "label": "Operator",
+   "options": "Employee"
+  },
+  {
+   "fieldname": "in_control",
+   "fieldtype": "Check",
+   "label": "In Control",
+   "read_only": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  }
+ ],
+ "index_web_pages_for_search": 0,
+ "istable": 1,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Production",
+ "name": "SPC Data Point",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 0
+}

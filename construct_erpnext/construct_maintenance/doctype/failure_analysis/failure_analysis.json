@@ -1,0 +1,210 @@
+{
+ "actions": [],
+ "autoname": "naming_series:",
+ "creation": "2026-03-28 00:00:00.000000",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "naming_series",
+  "asset",
+  "asset_name",
+  "asset_component",
+  "column_break_1",
+  "failure_mode",
+  "failure_date",
+  "maintenance_log",
+  "company",
+  "section_break_downtime",
+  "downtime_start",
+  "downtime_end",
+  "column_break_downtime",
+  "downtime_hours",
+  "section_break_analysis",
+  "root_cause",
+  "section_break_corrective",
+  "corrective_action",
+  "section_break_preventive",
+  "preventive_recommendation",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "FA-.YYYY.-.#####",
+   "default": "FA-.YYYY.-.#####",
+   "reqd": 1
+  },
+  {
+   "fieldname": "asset",
+   "fieldtype": "Link",
+   "label": "Asset",
+   "options": "Asset",
+   "reqd": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "asset_name",
+   "fieldtype": "Data",
+   "label": "Asset Name",
+   "fetch_from": "asset.asset_name",
+   "read_only": 1
+  },
+  {
+   "fieldname": "asset_component",
+   "fieldtype": "Link",
+   "label": "Asset Component",
+   "options": "Asset Component"
+  },
+  {
+   "fieldname": "column_break_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "failure_mode",
+   "fieldtype": "Link",
+   "label": "Failure Mode",
+   "options": "Failure Mode",
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "failure_date",
+   "fieldtype": "Datetime",
+   "label": "Failure Date",
+   "reqd": 1,
+   "in_list_view": 1
+  },
+  {
+   "fieldname": "maintenance_log",
+   "fieldtype": "Link",
+   "label": "Maintenance Log",
+   "options": "Asset Maintenance Log"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company",
+   "reqd": 1,
+   "in_standard_filter": 1
+  },
+  {
+   "fieldname": "section_break_downtime",
+   "fieldtype": "Section Break",
+   "label": "Downtime"
+  },
+  {
+   "fieldname": "downtime_start",
+   "fieldtype": "Datetime",
+   "label": "Downtime Start",
+   "reqd": 1
+  },
+  {
+   "fieldname": "downtime_end",
+   "fieldtype": "Datetime",
+   "label": "Downtime End"
+  },
+  {
+   "fieldname": "column_break_downtime",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "downtime_hours",
+   "fieldtype": "Float",
+   "label": "Downtime Hours",
+   "read_only": 1,
+   "in_list_view": 1,
+   "bold": 1
+  },
+  {
+   "fieldname": "section_break_analysis",
+   "fieldtype": "Section Break",
+   "label": "Root Cause Analysis"
+  },
+  {
+   "fieldname": "root_cause",
+   "fieldtype": "Text Editor",
+   "label": "Root Cause"
+  },
+  {
+   "fieldname": "section_break_corrective",
+   "fieldtype": "Section Break",
+   "label": "Corrective Action"
+  },
+  {
+   "fieldname": "corrective_action",
+   "fieldtype": "Text Editor",
+   "label": "Corrective Action"
+  },
+  {
+   "fieldname": "section_break_preventive",
+   "fieldtype": "Section Break",
+   "label": "Preventive Recommendation"
+  },
+  {
+   "fieldname": "preventive_recommendation",
+   "fieldtype": "Text Editor",
+   "label": "Preventive Recommendation"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Failure Analysis",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-03-28 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Maintenance",
+ "name": "Failure Analysis",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1,
+   "cancel": 1,
+   "amend": 1
+  },
+  {
+   "create": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Maintenance Engineer",
+   "share": 1,
+   "submit": 1,
+   "write": 1,
+   "cancel": 1,
+   "amend": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Maintenance User"
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
