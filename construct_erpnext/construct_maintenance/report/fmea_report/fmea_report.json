@@ -1,0 +1,10 @@
+{
+ "name": "FMEA Report",
+ "doctype": "Report",
+ "report_name": "FMEA Report",
+ "ref_doctype": "Failure Mode",
+ "module": "Construct Maintenance",
+ "report_type": "Script Report",
+ "is_standard": "Yes",
+ "disabled": 0
+}

@@ -1,0 +1,10 @@
+{
+ "name": "Budget Variance Analysis",
+ "doctype": "Report",
+ "report_name": "Budget Variance Analysis",
+ "ref_doctype": "Construction Budget",
+ "module": "Construct Projects",
+ "report_type": "Script Report",
+ "is_standard": "Yes",
+ "disabled": 0
+}

@@ -1,0 +1,10 @@
+{
+ "name": "Advancement vs Cost",
+ "doctype": "Report",
+ "report_name": "Advancement vs Cost",
+ "ref_doctype": "Physical Advancement",
+ "module": "Construct Projects",
+ "report_type": "Script Report",
+ "is_standard": "Yes",
+ "disabled": 0
+}

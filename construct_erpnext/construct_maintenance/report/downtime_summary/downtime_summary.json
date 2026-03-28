@@ -1,0 +1,10 @@
+{
+ "name": "Downtime Summary",
+ "doctype": "Report",
+ "report_name": "Downtime Summary",
+ "ref_doctype": "Downtime Record",
+ "module": "Construct Maintenance",
+ "report_type": "Script Report",
+ "is_standard": "Yes",
+ "disabled": 0
+}
