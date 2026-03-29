@@ -4,25 +4,25 @@
 <div class="container mt-4">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/advancement-auth">Authorize Advancement</a></li>
+            <li class="breadcrumb-item"><a href="/advancement-auth">{{ _("Authorize Advancement") }}</a></li>
             <li class="breadcrumb-item active">{{ advancement.name }}</li>
         </ol>
     </nav>
 
-    <h2>Advancement Review</h2>
+    <h2>{{ _("Advancement Review") }}</h2>
     <div class="card mt-3">
         <div class="card-body">
             <dl class="row">
-                <dt class="col-sm-3">Project</dt>
+                <dt class="col-sm-3">{{ _("Project") }}</dt>
                 <dd class="col-sm-9">{{ advancement.project }}</dd>
-                <dt class="col-sm-3">Date</dt>
+                <dt class="col-sm-3">{{ _("Date") }}</dt>
                 <dd class="col-sm-9">{{ frappe.format_value(advancement.period_date, {"fieldtype": "Date"}) }}</dd>
-                <dt class="col-sm-3">Advancement</dt>
+                <dt class="col-sm-3">{{ _("Advancement") }}</dt>
                 <dd class="col-sm-9">{{ advancement.advancement_pct }}%</dd>
-                <dt class="col-sm-3">Type</dt>
+                <dt class="col-sm-3">{{ _("Type") }}</dt>
                 <dd class="col-sm-9">{{ advancement.advancement_type }}</dd>
-                <dt class="col-sm-3">Remarks</dt>
-                <dd class="col-sm-9">{{ advancement.remarks or "None" }}</dd>
+                <dt class="col-sm-3">{{ _("Remarks") }}</dt>
+                <dd class="col-sm-9">{{ advancement.remarks or _("None") }}</dd>
             </dl>
         </div>
     </div>
@@ -33,16 +33,16 @@
             <input type="hidden" name="csrf_token" value="{{ frappe.session.csrf_token }}">
             <input type="hidden" name="advancement" value="{{ advancement.name }}">
             <div class="form-group">
-                <label>Authorized Advancement %</label>
+                <label>{{ _("Authorized Advancement %") }}</label>
                 <input type="number" name="authorized_pct" class="form-control" min="0" max="100"
                        value="{{ advancement.advancement_pct }}" step="0.01">
             </div>
             <div class="form-group">
-                <label>Comments</label>
+                <label>{{ _("Comments") }}</label>
                 <textarea name="comments" class="form-control" rows="3"></textarea>
             </div>
-            <button type="submit" class="btn btn-success mr-2">Authorize</button>
-            <a href="/advancement-auth" class="btn btn-secondary">Cancel</a>
+            <button type="submit" class="btn btn-success mr-2">{{ _("Authorize") }}</button>
+            <a href="/advancement-auth" class="btn btn-secondary">{{ _("Cancel") }}</a>
         </form>
     </div>
     {% endif %}

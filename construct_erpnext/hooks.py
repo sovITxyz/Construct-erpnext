@@ -1,3 +1,5 @@
+from frappe import _
+
 app_name = "construct_erpnext"
 app_title = "Construct ERPNext"
 app_publisher = "Sovereign IT Services"
@@ -5,6 +7,9 @@ app_description = "Construction ERP portal for ERPNext v16 - replicating o4bi.co
 app_email = "git@sovit.xyz"
 app_license = "AGPL-3.0"
 required_apps = ["frappe", "erpnext", "hrms"]
+
+# --- After Install ---
+after_install = "construct_erpnext.setup.install.after_install"
 
 # --- Asset Bundles ---
 app_include_js = "/assets/construct_erpnext/js/construct_erpnext.bundle.js"
@@ -70,11 +75,11 @@ scheduler_events = {
 
 # --- Portal ---
 portal_menu_items = [
-    {"title": "My Projects", "route": "/project-portal", "role": "Customer"},
-    {"title": "Invoices", "route": "/client-invoices", "role": "Customer"},
-    {"title": "Documents", "route": "/client-documents", "role": "Customer"},
-    {"title": "Authorize Advancement", "route": "/advancement-auth", "role": "Customer"},
-    {"title": "Payment History", "route": "/payment-history", "role": "Customer"},
+    {"title": _("My Projects"), "route": "/project-portal", "role": "Customer"},
+    {"title": _("Invoices"), "route": "/client-invoices", "role": "Customer"},
+    {"title": _("Documents"), "route": "/client-documents", "role": "Customer"},
+    {"title": _("Authorize Advancement"), "route": "/advancement-auth", "role": "Customer"},
+    {"title": _("Payment History"), "route": "/payment-history", "role": "Customer"},
 ]
 
 website_route_rules = [

@@ -2,15 +2,15 @@
 
 {% block page_content %}
 <div class="container mt-4">
-    <h2>My Invoices</h2>
+    <h2>{{ _("My Invoices") }}</h2>
     <table class="table table-striped mt-3">
         <thead>
             <tr>
-                <th>Invoice</th>
-                <th>Date</th>
-                <th>Amount</th>
-                <th>Outstanding</th>
-                <th>Status</th>
+                <th>{{ _("Invoice") }}</th>
+                <th>{{ _("Date") }}</th>
+                <th>{{ _("Amount") }}</th>
+                <th>{{ _("Outstanding") }}</th>
+                <th>{{ _("Status") }}</th>
             </tr>
         </thead>
         <tbody>
@@ -22,17 +22,17 @@
                 <td>{{ frappe.format_value(inv.outstanding_amount, {"fieldtype": "Currency"}) }}</td>
                 <td>
                     {% if inv.outstanding_amount == 0 %}
-                    <span class="badge badge-success">Paid</span>
+                    <span class="badge badge-success">{{ _("Paid") }}</span>
                     {% elif inv.outstanding_amount < inv.grand_total %}
-                    <span class="badge badge-warning">Partial</span>
+                    <span class="badge badge-warning">{{ _("Partial") }}</span>
                     {% else %}
-                    <span class="badge badge-danger">Unpaid</span>
+                    <span class="badge badge-danger">{{ _("Unpaid") }}</span>
                     {% endif %}
                 </td>
             </tr>
             {% endfor %}
             {% if not invoices %}
-            <tr><td colspan="5" class="text-muted">No invoices found.</td></tr>
+            <tr><td colspan="5" class="text-muted">{{ _("No invoices found.") }}</td></tr>
             {% endif %}
         </tbody>
     </table>

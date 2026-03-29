@@ -4,7 +4,7 @@
 <div class="container mt-4">
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-            <li class="breadcrumb-item"><a href="/project-portal">My Projects</a></li>
+            <li class="breadcrumb-item"><a href="/project-portal">{{ _("My Projects") }}</a></li>
             <li class="breadcrumb-item active">{{ project.project_name }}</li>
         </ol>
     </nav>
@@ -16,7 +16,7 @@
         <div class="col-md-3">
             <div class="card text-center">
                 <div class="card-body">
-                    <h6 class="text-muted">Progress</h6>
+                    <h6 class="text-muted">{{ _("Progress") }}</h6>
                     <h3>{{ project.percent_complete or 0 }}%</h3>
                     <div class="progress">
                         <div class="progress-bar" style="width: {{ project.percent_complete or 0 }}%"></div>
@@ -27,7 +27,7 @@
         <div class="col-md-3">
             <div class="card text-center">
                 <div class="card-body">
-                    <h6 class="text-muted">Budget</h6>
+                    <h6 class="text-muted">{{ _("Budget") }}</h6>
                     <h3>{{ frappe.format_value(project.estimated_costing or 0, {"fieldtype": "Currency"}) }}</h3>
                 </div>
             </div>
@@ -35,7 +35,7 @@
         <div class="col-md-3">
             <div class="card text-center">
                 <div class="card-body">
-                    <h6 class="text-muted">Actual Cost</h6>
+                    <h6 class="text-muted">{{ _("Actual Cost") }}</h6>
                     <h3>{{ frappe.format_value(project.total_costing_amount or 0, {"fieldtype": "Currency"}) }}</h3>
                 </div>
             </div>
@@ -43,22 +43,22 @@
         <div class="col-md-3">
             <div class="card text-center">
                 <div class="card-body">
-                    <h6 class="text-muted">Expected End</h6>
-                    <h3>{{ frappe.format_value(project.expected_end_date, {"fieldtype": "Date"}) if project.expected_end_date else "N/A" }}</h3>
+                    <h6 class="text-muted">{{ _("Expected End") }}</h6>
+                    <h3>{{ frappe.format_value(project.expected_end_date, {"fieldtype": "Date"}) if project.expected_end_date else _("N/A") }}</h3>
                 </div>
             </div>
         </div>
     </div>
 
     {% if tasks %}
-    <h4 class="mt-4">Tasks</h4>
+    <h4 class="mt-4">{{ _("Tasks") }}</h4>
     <table class="table table-striped">
         <thead>
             <tr>
-                <th>Task</th>
-                <th>Status</th>
-                <th>Progress</th>
-                <th>Due Date</th>
+                <th>{{ _("Task") }}</th>
+                <th>{{ _("Status") }}</th>
+                <th>{{ _("Progress") }}</th>
+                <th>{{ _("Due Date") }}</th>
             </tr>
         </thead>
         <tbody>
@@ -81,13 +81,13 @@
     {% endif %}
 
     {% if advancements %}
-    <h4 class="mt-4">Recent Advancements</h4>
+    <h4 class="mt-4">{{ _("Recent Advancements") }}</h4>
     <table class="table">
         <thead>
             <tr>
-                <th>Date</th>
-                <th>Type</th>
-                <th>Advancement</th>
+                <th>{{ _("Date") }}</th>
+                <th>{{ _("Type") }}</th>
+                <th>{{ _("Advancement") }}</th>
             </tr>
         </thead>
         <tbody>

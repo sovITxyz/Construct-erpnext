@@ -1,0 +1,694 @@
+Activity,Actividad,
+Activity Schedule,Cronograma de Actividades,
+Actual Advancement %,% de Avance Real,
+Advancement %,% de Avance,
+Advancement % cannot be negative.,El % de Avance no puede ser negativo.,
+Advancement % cannot exceed 100.,El % de Avance no puede exceder 100.,
+Advancement cannot go backwards. Current {0}% is less than previous {1}%.,El avance no puede retroceder. El actual {0}% es menor que el anterior {1}%.,
+Advancement Type,Tipo de Avance,
+Amount,Monto,
+Amount Field is required,El campo Monto es requerido,
+Amount must be greater than zero,El monto debe ser mayor a cero,
+Amount must be greater than zero.,El monto debe ser mayor a cero.,
+Approval Date,Fecha de Aprobación,
+Asset,Activo,
+Asset Category,Categoría de Activo,
+Asset Name,Nombre del Activo,
+At least one Budget Level row is required.,Se requiere al menos una fila de Nivel de Presupuesto.,
+At least one Distribution Item is required.,Se requiere al menos un Elemento de Distribución.,
+Auto JE Rule Skipped,Regla de Asiento Automático Omitida,
+Auto Reminder - {0},Recordatorio Automático - {0},
+Account {0} not found for company {1},Cuenta {0} no encontrada para la empresa {1},
+Bank Account {0} does not have a linked GL account,La Cuenta Bancaria {0} no tiene una cuenta contable vinculada,
+Bank Account is required to create a payment,Se requiere una Cuenta Bancaria para crear un pago,
+Bank Account is required to submit,Se requiere una Cuenta Bancaria para enviar,
+Bank Account is required to submit a Deposit Entry,Se requiere una Cuenta Bancaria para enviar un Registro de Depósito,
+Beneficiary is required,Se requiere un beneficiario,
+Billing %,% de Facturación,
+Both ratio_name and period are required,Se requieren tanto el nombre de la razón como el período,
+Budget,Presupuesto,
+Budget Consumed %,% de Presupuesto Consumido,
+Budget Level Code,Código de Nivel de Presupuesto,
+Budget Level with code '{0}' not found for modification.,Nivel de Presupuesto con código '{0}' no encontrado para modificación.,
+Budget Level with code '{0}' not found for removal.,Nivel de Presupuesto con código '{0}' no encontrado para eliminación.,
+Cancel reason is required to cancel a Check Request,Se requiere un motivo de cancelación para cancelar una Solicitud de Cheque,
+Center Line must be between Lower and Upper Control Limits.,La Línea Central debe estar entre los Límites de Control Inferior y Superior.,
+Change Amount,Monto del Cambio,
+Change Order,Orden de Cambio,
+Change Order Title,Título de Orden de Cambio,
+Change Type,Tipo de Cambio,
+Circular dependency detected in Activity Schedule for project {0}.,Dependencia circular detectada en el Cronograma de Actividades del proyecto {0}.,
+Collection Document name is required,Se requiere el nombre del Documento de Cobro,
+Company,Empresa,
+Construction Budget is required to apply changes.,Se requiere un Presupuesto de Construcción para aplicar los cambios.,
+Contractor,Contratista,
+Contractor Name,Nombre del Contratista,
+Contract Title,Título del Contrato,
+Corrective Action {0} created for out-of-control chart.,Acción Correctiva {0} creada para gráfico fuera de control.,
+Cost Rate,Tasa de Costo,
+Cost Type,Tipo de Costo,
+CPI,IPC,
+CPI Status,Estado del IPC,
+Credit Account is required,Se requiere una Cuenta de Crédito,
+Crew Code,Código de Cuadrilla,
+Customer,Cliente,
+Customer is required,Se requiere un cliente,
+Customer is required to apply collection,Se requiere un cliente para aplicar el cobro,
+Date Range Start must be before Date Range End.,La Fecha de Inicio del Rango debe ser anterior a la Fecha de Fin del Rango.,
+Debit Account is required,Se requiere una Cuenta de Débito,
+Default Payable Account is not configured for company {0},La Cuenta por Pagar por Defecto no está configurada para la empresa {0},
+Default Payable Account not configured for company {0},Cuenta por Pagar por Defecto no configurada para la empresa {0},
+Default Receivable Account not configured for company {0},Cuenta por Cobrar por Defecto no configurada para la empresa {0},
+Deposit Date is required,Se requiere la Fecha de Depósito,
+Deposit Entry {0},Registro de Depósito {0},
+Detection,Detección,
+Distribution,Distribución,
+Distribution percentages must sum to 100%. Currently: {0}%,Los porcentajes de distribución deben sumar 100%. Actualmente: {0}%,
+Downtime Cost,Costo de Tiempo de Inactividad,
+Duration (Days),Duración (Días),
+Employee,Empleado,
+Employee is required.,Se requiere un empleado.,
+Employee Loan {0} created.,Préstamo de Empleado {0} creado.,
+Employee Name,Nombre del Empleado,
+End Date,Fecha de Fin,
+End Date cannot be before Start Date.,La Fecha de Fin no puede ser anterior a la Fecha de Inicio.,
+Error evaluating formula: {0},Error al evaluar la fórmula: {0},
+Error evaluating formula: {0}. Expanded formula: {1},Error al evaluar la fórmula: {0}. Fórmula expandida: {1},
+Estimated Total,Total Estimado,
+Evidence document is required for Compliant status.,Se requiere un documento de evidencia para el estado Conforme.,
+Expected Date,Fecha Esperada,
+Exported {0} records.,{0} registros exportados.,
+Failure Mode,Modo de Falla,
+Flag,Bandera,
+"Formula is empty, cannot compute ratio","La fórmula está vacía, no se puede calcular la razón",
+Formula is required for {0} type Insumos.,Se requiere una fórmula para Insumos de tipo {0}.,
+Formula is required for a Financial Ratio,Se requiere una fórmula para una Razón Financiera,
+Formula is required for Calculated Insumo.,Se requiere una fórmula para Insumo Calculado.,
+Formula is required for Compound Insumo.,Se requiere una fórmula para Insumo Compuesto.,
+Formula must contain at least one {Account Name} reference,La fórmula debe contener al menos una referencia {Account Name},
+Hours,Horas,
+Hours Used,Horas Utilizadas,
+Incident Count,Cantidad de Incidentes,
+Installment Amount must be greater than zero.,El Monto de la Cuota debe ser mayor a cero.,
+Insumo '{0}' not found.,Insumo '{0}' no encontrado.,
+Invalid compound formula segment '{0}'. Expected 'Name:qty'.,Segmento de fórmula compuesta inválido '{0}'. Se esperaba 'Nombre:cant'.,
+"Invalid period format: {0}. Use YYYY-MM, YYYY-Q1..Q4, or YYYY","Formato de período inválido: {0}. Use AAAA-MM, AAAA-Q1..Q4, o AAAA",
+Invalid status {0}. Must be one of: {1},Estado inválido {0}. Debe ser uno de: {1},
+Invalid status transition from {0} to {1},Transición de estado inválida de {0} a {1},
+Invoiced Amount,Monto Facturado,
+Item Code,Código de Artículo,
+Item Name,Nombre del Artículo,
+Labor cost from Salary Slip {0} for {1},Costo de mano de obra del Recibo de Salario {0} para {1},
+Level Code,Código de Nivel,
+Level Name,Nombre de Nivel,
+Level Type,Tipo de Nivel,
+Loan Amount must be greater than zero.,El Monto del Préstamo debe ser mayor a cero.,
+Lower Control Limit must be less than Upper Control Limit.,El Límite de Control Inferior debe ser menor que el Límite de Control Superior.,
+Maintenance Email Failed,Fallo en Correo de Mantenimiento,
+Negotiated Amount,Monto Negociado,
+New Amount,Nuevo Monto,
+No active Employee Loan found for {0}.,No se encontró un Préstamo de Empleado activo para {0}.,
+No default bank or cash account configured for company {0},No hay cuenta bancaria o de caja por defecto configurada para la empresa {0},
+No email address found for customer {0} (Invoice {1}),No se encontró dirección de correo electrónico para el cliente {0} (Factura {1}),
+No remaining amount to apply,No hay monto restante para aplicar,
+No salary component mapping for movement type {0}.,No hay mapeo de componente salarial para el tipo de movimiento {0}.,
+Occurrence,Ocurrencia,
+% of Total,% del Total,
+Ordered Qty,Cantidad Ordenada,
+Original Amount,Monto Original,
+Overdue Maintenance: {0} for {1},Mantenimiento Vencido: {0} para {1},
+Paid Amount,Monto Pagado,
+Parts Cost,Costo de Repuestos,
+Payment Reminder: Invoice {0},Recordatorio de Pago: Factura {0},
+Payment Reminder - No Email,Recordatorio de Pago - Sin Correo Electrónico,
+Payment Reminder Template Error,Error de Plantilla de Recordatorio de Pago,
+Pending Qty,Cantidad Pendiente,
+Period Date,Fecha del Período,
+Period End cannot be before Period Start.,El Fin del Período no puede ser anterior al Inicio del Período.,
+Period Type,Tipo de Período,
+Planned %,% Planificado,
+Planned End,Fin Planificado,
+Planned Start,Inicio Planificado,
+Please set a Default Income Account in company {0} settings.,Por favor configure una Cuenta de Ingreso por Defecto en la configuración de la empresa {0}.,
+Posting Date,Fecha de Contabilización,
+Project,Proyecto,
+Project Revenue,Ingreso del Proyecto,
+Purchase Invoice is required,Se requiere una Factura de Compra,
+Qty,Cant.,
+Rate,Tasa,
+Real Total,Total Real,
+Received Qty,Cantidad Recibida,
+Recommended Action,Acción Recomendada,
+Remaining Amount,Monto Restante,
+Request Date,Fecha de Solicitud,
+Requested By,Solicitado Por,
+Requested Qty,Cantidad Solicitada,
+Revenue Name,Nombre del Ingreso,
+Revenue Type,Tipo de Ingreso,
+Routine marked as performed. Next due: {0},Rutina marcada como realizada. Próximo vencimiento: {0},
+RPN Score,Puntuación RPN,
+Rule {0}: amount field '{1}' is zero or negative on {2} {3},Regla {0}: el campo de monto '{1}' es cero o negativo en {2} {3},
+Rule {0}: no company found on rule or document {1} {2},Regla {0}: no se encontró empresa en la regla o documento {1} {2},
+Sales Invoice {0} has no outstanding amount,La Factura de Venta {0} no tiene saldo pendiente,
+Sales Invoice is required to apply collection,Se requiere una Factura de Venta para aplicar el cobro,
+Severity,Severidad,
+SPC Out of Control: {0},SPC Fuera de Control: {0},
+SPI,IRP,
+SPI Status,Estado del IRP,
+Start Date,Fecha de Inicio,
+Status,Estado,
+Subcontract,Subcontrato,
+Supplier is required,Se requiere un proveedor,
+Task,Tarea,
+Tax Withholding ({0}%),Retención de Impuestos ({0}%),
+Total Amount,Monto Total,
+Total Cost,Costo Total,
+Total Cost Impact,Impacto Total de Costo,
+Total Deducted ({0}) cannot exceed Loan Amount ({1}).,El Total Deducido ({0}) no puede exceder el Monto del Préstamo ({1}).,
+Total Deducted cannot be negative.,El Total Deducido no puede ser negativo.,
+Total deposit amount must be greater than zero,El monto total del depósito debe ser mayor a cero,
+Total Duration (Hours),Duración Total (Horas),
+Total Estimated,Total Estimado,
+Total Real Cost,Costo Real Total,
+Trigger DocType is required,Se requiere el DocType de Activación,
+Trigger Event is required,Se requiere el Evento de Activación,
+Unknown Insumo type: {0},Tipo de Insumo desconocido: {0},
+Unknown relationship type '{0}'.,Tipo de relación desconocido '{0}'.,
+UOM,UDM,
+Usage Date,Fecha de Uso,
+Variance %,% de Variación,
+Variance,Variación,
+Auto-created: authorization required before invoice submission,Auto-creado: se requiere autorización antes de la presentación de la factura,
+Purchase Invoice {0} requires authorization before submission. An Invoice Authorization request ({1}) has been created. Please get it authorized and then re-submit.,La Factura de Compra {0} requiere autorización antes de su presentación. Se ha creado una solicitud de Autorización de Factura ({1}). Por favor obtenga la autorización y vuelva a enviar.,
+"Dear {0},<br><br>This is a reminder that Invoice <b>{1}</b> with an outstanding amount of <b>{2}</b> was due on <b>{3}</b>.<br><br>Please arrange payment at your earliest convenience.<br><br>Thank you.","Estimado/a {0},<br><br>Le recordamos que la Factura <b>{1}</b> con un saldo pendiente de <b>{2}</b> venció el <b>{3}</b>.<br><br>Por favor gestione el pago a la brevedad posible.<br><br>Gracias.",
+"Dear {0},<br><br>This is a friendly reminder that Invoice <b>{1}</b> with an amount of <b>{2}</b> is due on <b>{3}</b>.<br><br>Thank you.","Estimado/a {0},<br><br>Le recordamos amablemente que la Factura <b>{1}</b> por un monto de <b>{2}</b> vence el <b>{3}</b>.<br><br>Gracias.",
+Withholding Tax Payable account not found for company {0}. Please create an account named 'Withholding Tax Payable' or set the withholding_tax_account field on the Company record.,Cuenta de Retención de Impuestos por Pagar no encontrada para la empresa {0}. Por favor cree una cuenta llamada 'Retención de Impuestos por Pagar' o configure el campo withholding_tax_account en el registro de la Empresa.,
+ISR Withholding 10%,Retención ISR 10%,
+IVA Retention 1%,Retención IVA 1%,
+IVA 13%,IVA 13%,
+IVA Compras 13%,IVA Compras 13%,
+IVA Compras 13% - {0},IVA Compras 13% - {0},
+IVA Crédito Fiscal,IVA Crédito Fiscal,
+IVA Débito Fiscal,IVA Débito Fiscal,
+IVA Ventas 13%,IVA Ventas 13%,
+IVA Ventas 13% - {0},IVA Ventas 13% - {0},
+Retención ISR,Retención ISR,
+Retención IVA 1%,Retención IVA 1%,
+ISSS Employee Contribution 3%,Contribución ISSS del Empleado 3%,
+ISSS Employer Contribution 7.5%,Contribución ISSS Patronal 7.5%,
+AFP Employee Contribution 7.25%,Contribución AFP del Empleado 7.25%,
+AFP Employer Contribution 8.75%,Contribución AFP Patronal 8.75%,
+Christmas Bonus - Aguinaldo,Bono Navideño - Aguinaldo,
+Income Tax Withholding,Retención del Impuesto sobre la Renta,
+El Salvador payroll components created for {0},Componentes de nómina de El Salvador creados para {0},
+El Salvador Payroll Setup Error,Error en Configuración de Nómina de El Salvador,
+El Salvador tax accounts and templates have been created for {0}.,Las cuentas y plantillas de impuestos de El Salvador han sido creadas para {0}.,
+El Salvador Tax Setup Error,Error en Configuración de Impuestos de El Salvador,
+El Salvador vacation rules applied: 15 days after 1 year with 30% bonus.,Reglas de vacaciones de El Salvador aplicadas: 15 días después de 1 año con 30% de bonificación.,
+My Projects,Mis Proyectos,Portal Menu
+Invoices,Facturas,Portal Menu
+Documents,Documentos,Portal Menu
+Authorize Advancement,Autorizar Avance,Portal Menu
+Payment History,Historial de Pagos,Portal Menu
+Progress,Progreso,Portal Page
+Actual,Real,Portal Page
+Actual Cost,Costo Real,Portal Page
+Expected End,Fecha de Finalización Esperada,Portal Page
+Tasks,Tareas,Portal Page
+Due Date,Fecha de Vencimiento,Portal Page
+Recent Advancements,Avances Recientes,Portal Page
+Type,Tipo,Portal Page
+Advancement,Avance,Portal Page
+My Invoices,Mis Facturas,Portal Page
+Invoice,Factura,Portal Page
+Outstanding,Pendiente,Portal Page
+Paid,Pagado,Portal Page
+Partial,Parcial,Portal Page
+Unpaid,Sin Pagar,Portal Page
+No invoices found.,No se encontraron facturas.,Portal Page
+No projects found.,No se encontraron proyectos.,Portal Page
+Access your project documents contracts and reports.,Acceda a los documentos contratos e informes de sus proyectos.,Portal Page
+Download,Descargar,Portal Page
+No documents available.,No hay documentos disponibles.,Portal Page
+Review and authorize project advancement reports.,Revise y autorice los informes de avance del proyecto.,Portal Page
+Action,Acción,Portal Page
+Review,Revisar,Portal Page
+No pending advancements to authorize.,No hay avances pendientes por autorizar.,Portal Page
+Advancement Review,Revisión de Avance,Portal Page
+Remarks,Observaciones,Portal Page
+None,Ninguna,Portal Page
+Authorized Advancement %,% de Avance Autorizado,Portal Page
+Comments,Comentarios,Portal Page
+Authorize,Autorizar,Portal Page
+Cancel,Cancelar,Portal Page
+Payment,Pago,Portal Page
+Mode,Modo,Portal Page
+Reference,Referencia,Portal Page
+No payments found.,No se encontraron pagos.,Portal Page
+Date,Fecha,
+Components,Componentes,
+Construction Budget,Presupuesto de Construcción,
+Cost Distribution,Distribución de Costos,
+Cost Entries,Registros de Costos,
+Create,Crear,
+Distribute Costs,Distribuir Costos,
+Downtime Records,Registros de Tiempo de Inactividad,
+Equipment Usage,Uso de Equipo,
+Failure Analysis,Análisis de Fallas,
+From Date,Desde Fecha,
+Labor Hours,Horas de Trabajo,
+Maintenance Routines,Rutinas de Mantenimiento,
+Minimum RPN Score,Puntuación RPN Mínima,
+New Budget,Nuevo Presupuesto,
+Physical Advancement,Avance Físico,
+Record Advancement,Registrar Avance,
+Request Authorization,Solicitar Autorización,
+Request Check,Solicitar Cheque,
+Subcontracts,Subcontratos,
+To Date,Hasta Fecha,
+Variance Threshold (%),Umbral de Variación (%),
+View,Ver,
+View Check Request,Ver Solicitud de Cheque,
+Collection Document,Documento de Cobro,
+Budget Level,Nivel de Presupuesto,
+Project Cost Entry,Registro de Costo de Proyecto,
+Labor Hour Entry,Registro de Horas de Trabajo,
+Equipment Usage Log,Registro de Uso de Equipo,
+Check Request,Solicitud de Cheque,
+Invoice Authorization,Autorización de Factura,
+Maintenance Routine,Rutina de Mantenimiento,
+Overtime Administration,Administración de Horas Extra,
+Vacation Policy,Política de Vacaciones,
+Payroll Movement,Movimiento de Nómina,
+Employee Loan,Préstamo de Empleado,
+Salary Adjustment Request,Solicitud de Ajuste Salarial,
+Withholding Liquidation,Liquidación de Retenciones,
+Payment Reminder Schedule,Calendario de Recordatorios de Pago,
+Advance Payment Tracker,Rastreador de Pagos Anticipados,
+Deposit Entry,Registro de Depósito,
+Check Batch Print Item,Elemento de Impresión de Lote de Cheques,
+Payroll Cost Distribution,Distribución de Costos de Nómina,
+Client Portal Project,Proyecto del Portal de Cliente,
+Client Portal Access,Acceso al Portal de Cliente,
+Corrective Action Tracker,Rastreador de Acciones Correctivas,
+SPC Data Point,Punto de Datos SPC,
+SPC Control Chart,Gráfico de Control SPC,
+Process Parameter,Parámetro de Proceso,
+Process Traceability Log,Registro de Trazabilidad de Proceso,
+Financial Ratio Result,Resultado de Razón Financiera,
+Asset Digital Library Item,Elemento de Biblioteca Digital de Activos,
+Check Batch Print,Impresión de Lote de Cheques,
+Auto Journal Entry Rule,Regla de Asiento Contable Automático,
+Alternative Payment Document,Documento de Pago Alternativo,
+Financial Ratio,Razón Financiera,
+Meta Audit Entry,Entrada de Auditoría Meta,
+Role Group,Grupo de Roles,
+Audit Trail Export,Exportación de Pista de Auditoría,
+Audit Trail Config,Configuración de Pista de Auditoría,
+Role Group Item,Elemento de Grupo de Roles,
+Audit Trail Field,Campo de Pista de Auditoría,
+Audit Trail Entry,Entrada de Pista de Auditoría,
+Access Scope,Ámbito de Acceso,
+ISO Compliance Checklist,Lista de Verificación de Cumplimiento ISO,
+Asset Component,Componente de Activo,
+Maintenance Procedure Step,Paso de Procedimiento de Mantenimiento,
+Maintenance Contractor,Contratista de Mantenimiento,
+Downtime Record,Registro de Tiempo de Inactividad,
+Maintenance Spare Part,Repuesto de Mantenimiento,
+Asset Component Characteristic,Característica de Componente de Activo,
+Contractor Routine Link,Enlace de Rutina de Contratista,
+Activity Predecessor,Predecesor de Actividad,
+Insumo Price Scenario,Escenario de Precio de Insumo,
+Insumo Price Scenario Item,Elemento de Escenario de Precio de Insumo,
+Spare Part Asset Link,Enlace de Repuesto con Activo,
+Budget Change Order Item,Elemento de Orden de Cambio de Presupuesto,
+Material Distribution,Distribución de Material,
+Spare Parts Catalog,Catálogo de Repuestos,
+Budget Change Order,Orden de Cambio de Presupuesto,
+Project Invoice Item,Elemento de Factura de Proyecto,
+Insumo,Insumo,
+Project Invoice,Factura de Proyecto,
+Subcontract Activity,Actividad de Subcontrato,
+Material Distribution Item,Elemento de Distribución de Material,
+Deposit Entry Item,Elemento de Registro de Depósito,
+Payroll Cost Distribution Item,Elemento de Distribución de Costos de Nómina,
+Traceability Batch Item,Elemento de Lote de Trazabilidad,
+Vacation Policy Rule,Regla de Política de Vacaciones,
+Accounts,Cuentas,DocType Field
+Active,Activo,DocType Field
+Active Routines,Rutinas Activas,DocType Field
+Activities,Actividades,DocType Field
+Activity Name,Nombre de Actividad,DocType Field
+Adjustment %,% de Ajuste,DocType Field
+Adjustment Amount,Monto de Ajuste,DocType Field
+Advance Amount,Monto de Anticipo,DocType Field
+Advancement Basis,Base de Avance,DocType Field
+Amended From,Modificado Desde,DocType Field
+Amount Field,Campo de Monto,DocType Field
+Application,Aplicación,DocType Field
+Applied Amount,Monto Aplicado,DocType Field
+Approval,Aprobación,DocType Field
+Approved By,Aprobado Por,DocType Field
+Assigned To,Asignado A,DocType Field
+Audit Date,Fecha de Auditoría,DocType Field
+Audit Entry Reference,Referencia de Entrada de Auditoría,DocType Field
+Audit Schedule,Cronograma de Auditoría,DocType Field
+Authorization,Autorización,DocType Field
+Authorization Date,Fecha de Autorización,DocType Field
+Authorized %,% Autorizado,DocType Field
+Authorized By,Autorizado Por,DocType Field
+Balance,Saldo,DocType Field
+Bank Account,Cuenta Bancaria,DocType Field
+Bank Reference,Referencia Bancaria,DocType Field
+Base Rate,Tasa Base,DocType Field
+Base Unit,Unidad Base,DocType Field
+Batch No,No. de Lote,DocType Field
+Benchmark Value,Valor de Referencia,DocType Field
+Beneficiary,Beneficiario,DocType Field
+Beneficiary Account,Cuenta del Beneficiario,DocType Field
+BOM,Lista de Materiales,DocType Field
+Bonus Percentage,Porcentaje de Bonificación,DocType Field
+Budget Level Code,Código de Nivel de Presupuesto,DocType Field
+Budget Levels,Niveles de Presupuesto,DocType Field
+Budget Name,Nombre del Presupuesto,DocType Field
+Budget Status,Estado del Presupuesto,DocType Field
+Calculation,Cálculo,DocType Field
+Can Authorize Advancement,Puede Autorizar Avance,DocType Field
+Cancellation,Cancelación,DocType Field
+Cancel Reason,Motivo de Cancelación,DocType Field
+Carryover Allowed,Arrastre Permitido,DocType Field
+Cause,Causa,DocType Field
+Center Line,Línea Central,DocType Field
+Changed By,Modificado Por,DocType Field
+Change Items,Elementos de Cambio,DocType Field
+Change Timestamp,Marca de Tiempo de Cambio,DocType Field
+Characteristic Name,Nombre de Característica,DocType Field
+Characteristics,Características,DocType Field
+Characteristic Value,Valor de Característica,DocType Field
+Chart Name,Nombre del Gráfico,DocType Field
+Checklist Name,Nombre de Lista de Verificación,DocType Field
+Check Number,Número de Cheque,DocType Field
+Check Request,Solicitud de Cheque,DocType Field
+Check Requests,Solicitudes de Cheque,DocType Field
+Clause,Cláusula,DocType Field
+Compatible Assets,Activos Compatibles,DocType Field
+Compliance Status,Estado de Cumplimiento,DocType Field
+Component Name,Nombre del Componente,DocType Field
+Component Type,Tipo de Componente,DocType Field
+Computed Value,Valor Calculado,DocType Field
+Containment Action,Acción de Contención,DocType Field
+Contract Status,Estado del Contrato,DocType Field
+Contract Terms,Términos del Contrato,DocType Field
+Control Limits,Límites de Control,DocType Field
+Corrective Action,Acción Correctiva,DocType Field
+Cost Impact,Impacto de Costo,DocType Field
+Country,País,DocType Field
+Credit Account,Cuenta de Crédito,DocType Field
+Criticality,Criticidad,DocType Field
+Currency,Moneda,DocType Field
+Current Price,Precio Actual,DocType Field
+Current Salary,Salario Actual,DocType Field
+Data Points,Puntos de Datos,DocType Field
+Date Range End,Fecha de Fin de Rango,DocType Field
+Date Range Start,Fecha de Inicio de Rango,DocType Field
+Days After Due (1st),Días Después del Vencimiento (1ro),DocType Field
+Days After Due (2nd),Días Después del Vencimiento (2do),DocType Field
+Days After Due (3rd),Días Después del Vencimiento (3ro),DocType Field
+Days Before Due,Días Antes del Vencimiento,DocType Field
+Debit Account,Cuenta de Débito,DocType Field
+Deduction Start Date,Fecha de Inicio de Deducción,DocType Field
+Delay Days,Días de Retraso,DocType Field
+Delay Hours,Horas de Retraso,DocType Field
+Delivered To,Entregado A,DocType Field
+Delivery Date,Fecha de Entrega,DocType Field
+Deposit Date,Fecha de Depósito,DocType Field
+Deposit Items,Elementos del Depósito,DocType Field
+Description,Descripción,DocType Field
+Details,Detalles,DocType Field
+Detection Method,Método de Detección,DocType Field
+Detection Rating,Calificación de Detección,DocType Field
+Distribution Items,Elementos de Distribución,DocType Field
+DocType Filter,Filtro de DocType,DocType Field
+Document Access Level,Nivel de Acceso al Documento,DocType Field
+Document Type,Tipo de Documento,DocType Field
+Downtime,Tiempo de Inactividad,DocType Field
+Downtime End,Fin del Tiempo de Inactividad,DocType Field
+Downtime Hours,Horas de Inactividad,DocType Field
+Downtime Start,Inicio del Tiempo de Inactividad,DocType Field
+Duration (Hours),Duración (Horas),DocType Field
+Effective Date,Fecha Efectiva,DocType Field
+Effectiveness Verification,Verificación de Efectividad,DocType Field
+Email Template (After Due),Plantilla de Correo (Después del Vencimiento),DocType Field
+Email Template (Before Due),Plantilla de Correo (Antes del Vencimiento),DocType Field
+Email Templates,Plantillas de Correo,DocType Field
+End Datetime,Fecha y Hora de Fin,DocType Field
+Entered By,Ingresado Por,DocType Field
+Estimated Cost Impact,Impacto de Costo Estimado,DocType Field
+Estimated Duration (Hours),Duración Estimada (Horas),DocType Field
+Estimated Minutes,Minutos Estimados,DocType Field
+Estimated Qty,Cantidad Estimada,DocType Field
+Estimated Unit Cost,Costo Unitario Estimado,DocType Field
+Evidence,Evidencia,DocType Field
+Evidence Document,Documento de Evidencia,DocType Field
+Export Date,Fecha de Exportación,DocType Field
+Export Details,Detalles de Exportación,DocType Field
+Exported By,Exportado Por,DocType Field
+Exported File,Archivo Exportado,DocType Field
+Export Format,Formato de Exportación,DocType Field
+Failure Date,Fecha de Falla,DocType Field
+Failure Description,Descripción de Falla,DocType Field
+Failure Effect,Efecto de Falla,DocType Field
+Failure Mode Name,Nombre del Modo de Falla,DocType Field
+Family,Familia,DocType Field
+Field Name,Nombre del Campo,DocType Field
+File Attachment,Archivo Adjunto,DocType Field
+File Type,Tipo de Archivo,DocType Field
+FMEA Ratings (1-10),Calificaciones AMEF (1-10),DocType Field
+Formula,Fórmula,DocType Field
+Freeze Details,Detalles de Congelamiento,DocType Field
+Frequency,Frecuencia,DocType Field
+Frequency Type,Tipo de Frecuencia,DocType Field
+Frozen By,Congelado Por,DocType Field
+Frozen Date,Fecha de Congelamiento,DocType Field
+Government Entity,Entidad Gubernamental,DocType Field
+Group Name,Nombre del Grupo,DocType Field
+Hourly Rate,Tarifa por Hora,DocType Field
+In Control,Bajo Control,DocType Field
+Input Batches,Lotes de Entrada,DocType Field
+Installment Amount,Monto de Cuota,DocType Field
+Installments Remaining,Cuotas Restantes,DocType Field
+Insumo Name,Nombre del Insumo,DocType Field
+Insumo Type,Tipo de Insumo,DocType Field
+Interest Rate,Tasa de Interés,DocType Field
+Invoice Amount,Monto de Factura,DocType Field
+Invoice Date,Fecha de Factura,DocType Field
+IP Address,Dirección IP,DocType Field
+Items,Elementos,DocType Field
+Last Performed,Última Realización,DocType Field
+Loan Amount,Monto del Préstamo,DocType Field
+Lower Control Limit,Límite de Control Inferior,DocType Field
+Maintenance Log,Registro de Mantenimiento,DocType Field
+Max Carryover Days,Días Máximos de Arrastre,DocType Field
+Measured Value,Valor Medido,DocType Field
+Measurement Type,Tipo de Medición,DocType Field
+Metadata,Metadatos,DocType Field
+Methodology,Metodología,DocType Field
+Minimum Stock,Stock Mínimo,DocType Field
+Movement Type,Tipo de Movimiento,DocType Field
+Naming Series,Serie de Nombres,DocType Field
+New Value,Nuevo Valor,DocType Field
+Next Due,Próximo Vencimiento,DocType Field
+Next Review,Próxima Revisión,DocType Field
+Notes,Notas,DocType Field
+Occurrence Probability,Probabilidad de Ocurrencia,DocType Field
+Old Value,Valor Anterior,DocType Field
+Operation,Operación,DocType Field
+Operator,Operador,DocType Field
+Operator & Timing,Operador y Tiempo,DocType Field
+Overtime Date,Fecha de Hora Extra,DocType Field
+Overtime Type,Tipo de Hora Extra,DocType Field
+Parameter Name,Nombre del Parámetro,DocType Field
+Parameter Value,Valor del Parámetro,DocType Field
+Parent Asset,Activo Padre,DocType Field
+Parent Component,Componente Padre,DocType Field
+Parent Level,Nivel Padre,DocType Field
+Payment Date,Fecha de Pago,DocType Field
+Payment Details,Detalles de Pago,DocType Field
+Payment Entry,Entrada de Pago,DocType Field
+Payment Reference,Referencia de Pago,DocType Field
+Payment Term,Plazo de Pago,DocType Field
+Payment Type,Tipo de Pago,DocType Field
+Percentage,Porcentaje,DocType Field
+Performed By,Realizado Por,DocType Field
+Period,Período,DocType Field
+Period End,Fin del Período,DocType Field
+Period Start,Inicio del Período,DocType Field
+Permanent Action,Acción Permanente,DocType Field
+Permanent Corrective Action,Acción Correctiva Permanente,DocType Field
+Permission Level,Nivel de Permiso,DocType Field
+Physical Advancement %,% de Avance Físico,DocType Field
+Policy Name,Nombre de Política,DocType Field
+Predecessor Activity,Actividad Predecesora,DocType Field
+Predecessors,Predecesores,DocType Field
+Preventive Recommendation,Recomendación Preventiva,DocType Field
+Prices,Precios,DocType Field
+Print Date,Fecha de Impresión,DocType Field
+Print & Delivery,Impresión y Entrega,DocType Field
+Printed By,Impreso Por,DocType Field
+Priority,Prioridad,DocType Field
+Problem Statement,Planteamiento del Problema,DocType Field
+Procedure Steps,Pasos del Procedimiento,DocType Field
+Process,Proceso,DocType Field
+Process End,Fin del Proceso,DocType Field
+Process Name,Nombre del Proceso,DocType Field
+Process Parameters,Parámetros del Proceso,DocType Field
+Process Start,Inicio del Proceso,DocType Field
+Production Impact,Impacto en Producción,DocType Field
+Project Name,Nombre del Proyecto,DocType Field
+Projects,Proyectos,DocType Field
+Proportional Deduction %,% de Deducción Proporcional,DocType Field
+Proposed Salary,Salario Propuesto,DocType Field
+Purchase Invoice,Factura de Compra,DocType Field
+Quality Action,Acción de Calidad,DocType Field
+Rate Multiplier,Multiplicador de Tasa,DocType Field
+Ratio Category,Categoría de Razón,DocType Field
+Ratio Name,Nombre de Razón,DocType Field
+Real Qty,Cantidad Real,DocType Field
+Real Unit Cost,Costo Unitario Real,DocType Field
+Reason,Motivo,DocType Field
+Received Date,Fecha de Recepción,DocType Field
+Record Count,Conteo de Registros,DocType Field
+Recurrence,Recurrencia,DocType Field
+Reference Number,Número de Referencia,DocType Field
+References,Referencias,DocType Field
+Relationship Type,Tipo de Relación,DocType Field
+Remaining Balance,Saldo Restante,DocType Field
+Reorder Level,Nivel de Reorden,DocType Field
+Request Details,Detalles de Solicitud,DocType Field
+Required Spare Parts,Repuestos Requeridos,DocType Field
+Requirement,Requisito,DocType Field
+Responsible Person,Persona Responsable,DocType Field
+Revenue Items,Elementos de Ingreso,DocType Field
+Role,Rol,DocType Field
+Roles,Roles,DocType Field
+Root Cause,Causa Raíz,DocType Field
+Root Cause Analysis,Análisis de Causa Raíz,DocType Field
+Routine Name,Nombre de Rutina,DocType Field
+Routine Type,Tipo de Rutina,DocType Field
+Rule Name,Nombre de Regla,DocType Field
+Rules,Reglas,DocType Field
+Safety Precaution,Precaución de Seguridad,DocType Field
+Salary Slip,Recibo de Salario,DocType Field
+Sales Invoice,Factura de Venta,DocType Field
+Sample Date,Fecha de Muestra,DocType Field
+Sample Number,Número de Muestra,DocType Field
+Sample Size,Tamaño de Muestra,DocType Field
+Scenario Name,Nombre de Escenario,DocType Field
+Scenario Price,Precio de Escenario,DocType Field
+Schedule,Cronograma,DocType Field
+Schedule Name,Nombre del Cronograma,DocType Field
+Scope DocType,DocType de Ámbito,DocType Field
+Scope Name,Nombre del Ámbito,DocType Field
+Scope Type,Tipo de Ámbito,DocType Field
+Serial No,No. de Serie,DocType Field
+Session ID,ID de Sesión,DocType Field
+Source DocType,DocType de Origen,DocType Field
+Source Document,Documento de Origen,DocType Field
+Source Reference,Referencia de Origen,DocType Field
+Source Type,Tipo de Origen,DocType Field
+Specialization,Especialización,DocType Field
+Specific Fields,Campos Específicos,DocType Field
+Standard,Estándar,DocType Field
+Start Datetime,Fecha y Hora de Inicio,DocType Field
+Step Number,Número de Paso,DocType Field
+Stock Entry,Entrada de Inventario,DocType Field
+Subfamily,Subfamilia,DocType Field
+Supplier Name,Nombre del Proveedor,DocType Field
+Supplier,Proveedor,DocType Field
+Target DocType,DocType de Destino,DocType Field
+Target Name,Nombre de Destino,DocType Field
+Target Type,Tipo de Destino,DocType Field
+Terms,Términos,DocType Field
+Terms & Conditions,Términos y Condiciones,DocType Field
+Timing,Tiempo,DocType Field
+Title,Título,DocType Field
+Total Change Amount,Monto Total de Cambio,DocType Field
+Total Deducted,Total Deducido,DocType Field
+Total Estimated Amount,Monto Total Estimado,DocType Field
+Total Invoice Amount,Monto Total de Factura,DocType Field
+Total Withheld,Total Retenido,DocType Field
+Track All Fields,Rastrear Todos los Campos,DocType Field
+Tracked DocType,DocType Rastreado,DocType Field
+Tracked Name,Nombre Rastreado,DocType Field
+Trigger DocType,DocType de Activación,DocType Field
+Trigger Event,Evento de Activación,DocType Field
+Unit,Unidad,DocType Field
+Unit Equivalence,Equivalencia de Unidad,DocType Field
+Upload Date,Fecha de Carga,DocType Field
+Uploaded By,Cargado Por,DocType Field
+Upper Control Limit,Límite de Control Superior,DocType Field
+User,Usuario,DocType Field
+User Filter,Filtro de Usuario,DocType Field
+User Full Name,Nombre Completo del Usuario,DocType Field
+Vacation Days Entitled,Días de Vacaciones Correspondientes,DocType Field
+Variance Amount,Monto de Variación,DocType Field
+Withholding Type,Tipo de Retención,DocType Field
+Within Spec,Dentro de Especificación,DocType Field
+Work Order,Orden de Trabajo,DocType Field
+Years of Service (End),Años de Servicio (Fin),DocType Field
+Years of Service (Start),Años de Servicio (Inicio),DocType Field
+Activated By,Activado Por,DocType Field
+Activated Date,Fecha de Activación,DocType Field
+Activation Details,Detalles de Activación,DocType Field
+Action Timestamp,Marca de Tiempo de Acción,DocType Field
+ISR Retention,Retención ISR,SV Tax
+IVA Retention 1%,Retención IVA 1%,SV Tax
+Gran Contribuyente,Gran Contribuyente,SV Tax
+Mediano Contribuyente,Mediano Contribuyente,SV Tax
+Pequeño Contribuyente,Pequeño Contribuyente,SV Tax
+ISSS Laboral,ISSS Laboral,SV Payroll
+ISSS Patronal,ISSS Patronal,SV Payroll
+AFP Laboral,AFP Laboral,SV Payroll
+AFP Patronal,AFP Patronal,SV Payroll
+Aguinaldo,Aguinaldo,SV Payroll
+ISR Renta,ISR Renta,SV Payroll
+CCF,CCF,SV Invoice Type
+Consumidor Final,Consumidor Final,SV Invoice Type
+Nota de Crédito,Nota de Crédito,SV Invoice Type
+Nota de Débito,Nota de Débito,SV Invoice Type
+Exportación,Exportación,SV Invoice Type
+NIT,NIT,SV Document
+NRC,NRC,SV Document
+DUI,DUI,SV Document
+ISSS Number,Número de ISSS,SV Document
+AFP Number,Número de AFP,SV Document
+AFP Provider,Proveedor de AFP,SV Payroll
+AFP Confía,AFP Confía,SV Payroll
+AFP Crecer,AFP Crecer,SV Payroll
+Taxpayer Type,Tipo de Contribuyente,SV Tax
+Invoice Type,Tipo de Factura,SV Tax
+Authorization Number,Número de Autorización,SV Tax
+IVA Credit Account,Cuenta de IVA Crédito,SV Tax
+IVA Debit Account,Cuenta de IVA Débito,SV Tax
+Large Taxpayer,Gran Contribuyente,SV Tax
+ISR withholding on services from individuals,Retención ISR sobre servicios de personas naturales,SV Tax
+IVA advance retention for non-gran-contribuyente purchases,Retención anticipada de IVA para compras de no gran contribuyente,SV Tax
+Daytime Overtime,Hora Extra Diurna,SV Payroll
+Nighttime Overtime,Hora Extra Nocturna,SV Payroll
+"El Salvador vacation: 15 days after 1 year, with 30% bonus","Vacaciones El Salvador: 15 días después de 1 año, con 30% de bonificación",SV Payroll
+Aguinaldo calculation based on tenure,Cálculo de Aguinaldo basado en antigüedad,SV Payroll
+ISSS salary ceiling,Techo salarial ISSS,SV Payroll
+Setup El Salvador taxes for {0},Configurar impuestos de El Salvador para {0},SV Setup
+Setup El Salvador payroll for {0},Configurar nómina de El Salvador para {0},SV Setup
+Pending,Pendiente,
+Cancelled,Cancelado,
+Authorized,Autorizado,
+Withholding Tax Account,Cuenta de Retención de Impuestos,DocType Field
+Total Real Cost,Costo Real Total,Report
+Budget Consumed %,% de Presupuesto Consumido,Report
+Billing %,% de Facturación,Report
+Labor Cost,Costo de Mano de Obra,Report
+Downtime,Tiempo de Inactividad,Report
+Equipment Usage,Uso de Equipo,Report
+Material,Material,Report
+Quantity,Cantidad,Report
