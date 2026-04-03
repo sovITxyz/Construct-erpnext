@@ -88,10 +88,12 @@ def get_columns():
 
 def get_data(filters):
 	conditions = ""
+	joins = ""
 	if filters.get("project"):
 		conditions += " AND asc_t.project = %(project)s"
 	if filters.get("company"):
-		conditions += " AND asc_t.company = %(company)s"
+		joins += " INNER JOIN `tabProject` proj ON proj.name = asc_t.project"
+		conditions += " AND proj.company = %(company)s"
 
 	# Use a custom alias to avoid SQL reserved word conflicts
 	activities = frappe.db.sql(
@@ -106,11 +108,13 @@ def get_data(filters):
 			asc_t.duration_days,
 			asc_t.physical_advancement_pct AS actual_advancement_pct
 		FROM `tabActivity Schedule` asc_t
+		{joins}
 		WHERE asc_t.docstatus = 1
 			{conditions}
 		ORDER BY asc_t.project, asc_t.start_date
 		""".format(
-			conditions=conditions
+			joins=joins,
+			conditions=conditions,
 		),
 		filters,
 		as_dict=True,

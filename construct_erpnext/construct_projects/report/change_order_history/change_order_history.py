@@ -92,10 +92,12 @@ def get_columns():
 
 def get_data(filters):
 	conditions = ""
+	joins = ""
 	if filters.get("project"):
 		conditions += " AND bco.project = %(project)s"
 	if filters.get("company"):
-		conditions += " AND bco.company = %(company)s"
+		joins += " INNER JOIN `tabProject` proj ON proj.name = bco.project"
+		conditions += " AND proj.company = %(company)s"
 	if filters.get("from_date"):
 		conditions += " AND bco.request_date >= %(from_date)s"
 	if filters.get("to_date"):
@@ -117,13 +119,15 @@ def get_data(filters):
 			bci.new_amount,
 			bci.change_amount
 		FROM `tabBudget Change Order` bco
+		{joins}
 		INNER JOIN `tabBudget Change Order Item` bci
 			ON bci.parent = bco.name AND bci.parenttype = 'Budget Change Order'
 		WHERE bco.docstatus = 1
 			{conditions}
 		ORDER BY bco.request_date DESC, bco.name
 		""".format(
-			conditions=conditions
+			joins=joins,
+			conditions=conditions,
 		),
 		filters,
 		as_dict=True,
