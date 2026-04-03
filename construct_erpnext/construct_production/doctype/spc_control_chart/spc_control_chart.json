@@ -6,7 +6,7 @@
  "engine": "InnoDB",
  "field_order": [
   "chart_name",
-  "process",
+  "process_name",
   "measurement_type",
   "column_break_1",
   "status",
@@ -31,7 +31,7 @@
    "unique": 1
   },
   {
-   "fieldname": "process",
+   "fieldname": "process_name",
    "fieldtype": "Data",
    "label": "Process",
    "reqd": 1

@@ -100,7 +100,7 @@ class SPCControlChart(Document):
 					"<p>Out-of-control values (recent): {values}</p>"
 				).format(
 					chart=self.chart_name,
-					process=self.process,
+					process=self.process_name,
 					measurement=self.measurement_type,
 					ucl=self.upper_control_limit,
 					cl=self.center_line,
