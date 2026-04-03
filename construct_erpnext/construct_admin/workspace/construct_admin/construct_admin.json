@@ -11,7 +11,7 @@
  "icon": "setting-gear",
  "idx": 0,
  "is_hidden": 0,
- "label": "Construct Admin",
+ "label": "GCS Admin",
  "links": [
   {
    "hidden": 0,
@@ -127,6 +127,6 @@
    "type": "DocType"
   }
  ],
- "title": "Construct Admin",
+ "title": "GCS Admin",
  "type": "Workspace"
 }

@@ -11,7 +11,7 @@
  "icon": "hr",
  "idx": 0,
  "is_hidden": 0,
- "label": "Construct Payroll",
+ "label": "GCS Payroll",
  "links": [
   {
    "hidden": 0,
@@ -79,6 +79,6 @@
    "type": "DocType"
   }
  ],
- "title": "Construct Payroll",
+ "title": "GCS Payroll",
  "type": "Workspace"
 }
