@@ -11,7 +11,7 @@
  "icon": "maintenance",
  "idx": 0,
  "is_hidden": 0,
- "label": "GCS Maintenance",
+ "label": "Construct Maintenance",
  "links": [
   {
    "hidden": 0,
@@ -157,6 +157,6 @@
    "type": "DocType"
   }
  ],
- "title": "GCS Maintenance",
+ "title": "Construct Maintenance",
  "type": "Workspace"
 }

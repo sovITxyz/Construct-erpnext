@@ -11,7 +11,7 @@
  "icon": "project",
  "idx": 0,
  "is_hidden": 0,
- "label": "GCS Projects",
+ "label": "Construct Projects",
  "links": [
   {
    "hidden": 0,
@@ -389,6 +389,6 @@
    "type": "DocType"
   }
  ],
- "title": "GCS Projects",
+ "title": "Construct Projects",
  "type": "Workspace"
 }

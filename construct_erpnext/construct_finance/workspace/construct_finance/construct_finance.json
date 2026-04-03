@@ -11,7 +11,7 @@
  "icon": "accounting",
  "idx": 0,
  "is_hidden": 0,
- "label": "GCS Finance",
+ "label": "Construct Finance",
  "links": [
   {
    "hidden": 0,
@@ -144,6 +144,6 @@
    "type": "DocType"
   }
  ],
- "title": "GCS Finance",
+ "title": "Construct Finance",
  "type": "Workspace"
 }
