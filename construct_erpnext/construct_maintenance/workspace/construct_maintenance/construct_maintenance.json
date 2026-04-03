@@ -13,21 +13,130 @@
  "is_hidden": 0,
  "label": "Construct Maintenance",
  "links": [
-  {"hidden": 0, "is_query_report": 0, "label": "Routines & Assets", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Maintenance Routine", "link_count": 0, "link_to": "Maintenance Routine", "link_type": "DocType", "onboard": 1, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Maintenance Contractor", "link_count": 0, "link_to": "Maintenance Contractor", "link_type": "DocType", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Asset Component", "link_count": 0, "link_to": "Asset Component", "link_type": "DocType", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Downtime Record", "link_count": 0, "link_to": "Downtime Record", "link_type": "DocType", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "ISO Compliance Checklist", "link_count": 0, "link_to": "ISO Compliance Checklist", "link_type": "DocType", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Failure Analysis", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Failure Analysis", "link_count": 0, "link_to": "Failure Analysis", "link_type": "DocType", "onboard": 1, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Failure Mode", "link_count": 0, "link_to": "Failure Mode", "link_type": "DocType", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Reports", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 1, "label": "Downtime Summary", "link_count": 0, "link_to": "Downtime Summary", "link_type": "Report", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 1, "label": "FMEA Report", "link_count": 0, "link_to": "FMEA Report", "link_type": "Report", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 1, "label": "Maintenance Cost by Asset", "link_count": 0, "link_to": "Maintenance Cost by Asset", "link_type": "Report", "onboard": 0, "type": "Link"}
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Routines & Assets",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Maintenance Routine",
+   "link_count": 0,
+   "link_to": "Maintenance Routine",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Maintenance Contractor",
+   "link_count": 0,
+   "link_to": "Maintenance Contractor",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Asset Component",
+   "link_count": 0,
+   "link_to": "Asset Component",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Downtime Record",
+   "link_count": 0,
+   "link_to": "Downtime Record",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "ISO Compliance Checklist",
+   "link_count": 0,
+   "link_to": "ISO Compliance Checklist",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Failure Analysis",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Failure Analysis",
+   "link_count": 0,
+   "link_to": "Failure Analysis",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Failure Mode",
+   "link_count": 0,
+   "link_to": "Failure Mode",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Downtime Summary",
+   "link_count": 0,
+   "link_to": "Downtime Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "FMEA Report",
+   "link_count": 0,
+   "link_to": "FMEA Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Maintenance Cost by Asset",
+   "link_count": 0,
+   "link_to": "Maintenance Cost by Asset",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
  ],
  "modified": "2026-04-03 00:00:00.000000",
  "modified_by": "Administrator",
@@ -40,7 +149,14 @@
  "roles": [],
  "sequence_id": 5,
  "shortcuts": [
-  {"color": "Orange", "doc_view": "List", "label": "Maintenance Routine", "link_to": "Maintenance Routine", "type": "DocType"}
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Maintenance Routine",
+   "link_to": "Maintenance Routine",
+   "type": "DocType"
+  }
  ],
- "title": "Construct Maintenance"
+ "title": "Construct Maintenance",
+ "type": "Workspace"
 }

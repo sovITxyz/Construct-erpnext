@@ -13,15 +13,82 @@
  "is_hidden": 0,
  "label": "Construct Security",
  "links": [
-  {"hidden": 0, "is_query_report": 0, "label": "Audit Trail", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Audit Trail Entry", "link_count": 0, "link_to": "Audit Trail Entry", "link_type": "DocType", "onboard": 1, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Audit Trail Config", "link_count": 0, "link_to": "Audit Trail Config", "link_type": "DocType", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Audit Trail Export", "link_count": 0, "link_to": "Audit Trail Export", "link_type": "DocType", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Meta Audit Entry", "link_count": 0, "link_to": "Meta Audit Entry", "link_type": "DocType", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Access Control", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Access Scope", "link_count": 0, "link_to": "Access Scope", "link_type": "DocType", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Role Group", "link_count": 0, "link_to": "Role Group", "link_type": "DocType", "onboard": 0, "type": "Link"}
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Audit Trail",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Audit Trail Entry",
+   "link_count": 0,
+   "link_to": "Audit Trail Entry",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Audit Trail Config",
+   "link_count": 0,
+   "link_to": "Audit Trail Config",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Audit Trail Export",
+   "link_count": 0,
+   "link_to": "Audit Trail Export",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Meta Audit Entry",
+   "link_count": 0,
+   "link_to": "Meta Audit Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Access Control",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Access Scope",
+   "link_count": 0,
+   "link_to": "Access Scope",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Role Group",
+   "link_count": 0,
+   "link_to": "Role Group",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
  ],
  "modified": "2026-04-03 00:00:00.000000",
  "modified_by": "Administrator",
@@ -34,5 +101,6 @@
  "roles": [],
  "sequence_id": 7,
  "shortcuts": [],
- "title": "Construct Security"
+ "title": "Construct Security",
+ "type": "Workspace"
 }

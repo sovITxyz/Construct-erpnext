@@ -13,50 +13,348 @@
  "is_hidden": 0,
  "label": "Construct Projects",
  "links": [
-  {"hidden": 0, "is_query_report": 0, "label": "Budgets", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Construction Budget", "link_count": 0, "link_to": "Construction Budget", "link_type": "DocType", "onboard": 1, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Budget Change Order", "link_count": 0, "link_to": "Budget Change Order", "link_type": "DocType", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Cost Tracking", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Project Cost Entry", "link_count": 0, "link_to": "Project Cost Entry", "link_type": "DocType", "onboard": 1, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Project Revenue", "link_count": 0, "link_to": "Project Revenue", "link_type": "DocType", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Advancement", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Physical Advancement", "link_count": 0, "link_to": "Physical Advancement", "link_type": "DocType", "onboard": 1, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Activity Schedule", "link_count": 0, "link_to": "Activity Schedule", "link_type": "DocType", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Resources", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Labor Hour Entry", "link_count": 0, "link_to": "Labor Hour Entry", "link_type": "DocType", "onboard": 1, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Equipment Usage Log", "link_count": 0, "link_to": "Equipment Usage Log", "link_type": "DocType", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Insumo", "link_count": 0, "link_to": "Insumo", "link_type": "DocType", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Insumo Price Scenario", "link_count": 0, "link_to": "Insumo Price Scenario", "link_type": "DocType", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Spare Parts Catalog", "link_count": 0, "link_to": "Spare Parts Catalog", "link_type": "DocType", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Subcontracts & Invoicing", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Subcontract", "link_count": 0, "link_to": "Subcontract", "link_type": "DocType", "onboard": 1, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Project Invoice", "link_count": 0, "link_to": "Project Invoice", "link_type": "DocType", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Materials", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Material Distribution", "link_count": 0, "link_to": "Material Distribution", "link_type": "DocType", "onboard": 1, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Budget Reports", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 1, "label": "Budget Variance Analysis", "link_count": 0, "link_to": "Budget Variance Analysis", "link_type": "Report", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 1, "label": "Budget vs Actual Cost", "link_count": 0, "link_to": "Budget vs Actual Cost", "link_type": "Report", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 1, "label": "Project Cost Summary", "link_count": 0, "link_to": "Project Cost Summary", "link_type": "Report", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 1, "label": "Change Order History", "link_count": 0, "link_to": "Change Order History", "link_type": "Report", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 1, "label": "Revenue vs Billing", "link_count": 0, "link_to": "Revenue vs Billing", "link_type": "Report", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Advancement Reports", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 1, "label": "Physical Advancement Report", "link_count": 0, "link_to": "Physical Advancement Report", "link_type": "Report", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 1, "label": "Advancement vs Cost", "link_count": 0, "link_to": "Advancement vs Cost", "link_type": "Report", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 1, "label": "Advancement vs Schedule", "link_count": 0, "link_to": "Advancement vs Schedule", "link_type": "Report", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 1, "label": "Subcontract Status", "link_count": 0, "link_to": "Subcontract Status", "link_type": "Report", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Resource & Material Reports", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 1, "label": "Labor Cost by Activity", "link_count": 0, "link_to": "Labor Cost by Activity", "link_type": "Report", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 1, "label": "Equipment Usage Report", "link_count": 0, "link_to": "Equipment Usage Report", "link_type": "Report", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 1, "label": "Material Acquisition Summary", "link_count": 0, "link_to": "Material Acquisition Summary", "link_type": "Report", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 1, "label": "Material Distribution Report", "link_count": 0, "link_to": "Material Distribution Report", "link_type": "Report", "onboard": 0, "type": "Link"}
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Budgets",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Construction Budget",
+   "link_count": 0,
+   "link_to": "Construction Budget",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Budget Change Order",
+   "link_count": 0,
+   "link_to": "Budget Change Order",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cost Tracking",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project Cost Entry",
+   "link_count": 0,
+   "link_to": "Project Cost Entry",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project Revenue",
+   "link_count": 0,
+   "link_to": "Project Revenue",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Advancement",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Physical Advancement",
+   "link_count": 0,
+   "link_to": "Physical Advancement",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Activity Schedule",
+   "link_count": 0,
+   "link_to": "Activity Schedule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Resources",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Labor Hour Entry",
+   "link_count": 0,
+   "link_to": "Labor Hour Entry",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Equipment Usage Log",
+   "link_count": 0,
+   "link_to": "Equipment Usage Log",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Insumo",
+   "link_count": 0,
+   "link_to": "Insumo",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Insumo Price Scenario",
+   "link_count": 0,
+   "link_to": "Insumo Price Scenario",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Spare Parts Catalog",
+   "link_count": 0,
+   "link_to": "Spare Parts Catalog",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subcontracts & Invoicing",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Subcontract",
+   "link_count": 0,
+   "link_to": "Subcontract",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Project Invoice",
+   "link_count": 0,
+   "link_to": "Project Invoice",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Materials",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Material Distribution",
+   "link_count": 0,
+   "link_to": "Material Distribution",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Budget Reports",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Budget Variance Analysis",
+   "link_count": 0,
+   "link_to": "Budget Variance Analysis",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Budget vs Actual Cost",
+   "link_count": 0,
+   "link_to": "Budget vs Actual Cost",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Project Cost Summary",
+   "link_count": 0,
+   "link_to": "Project Cost Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Change Order History",
+   "link_count": 0,
+   "link_to": "Change Order History",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Revenue vs Billing",
+   "link_count": 0,
+   "link_to": "Revenue vs Billing",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Advancement Reports",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Physical Advancement Report",
+   "link_count": 0,
+   "link_to": "Physical Advancement Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Advancement vs Cost",
+   "link_count": 0,
+   "link_to": "Advancement vs Cost",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Advancement vs Schedule",
+   "link_count": 0,
+   "link_to": "Advancement vs Schedule",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Subcontract Status",
+   "link_count": 0,
+   "link_to": "Subcontract Status",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Resource & Material Reports",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Labor Cost by Activity",
+   "link_count": 0,
+   "link_to": "Labor Cost by Activity",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Equipment Usage Report",
+   "link_count": 0,
+   "link_to": "Equipment Usage Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Material Acquisition Summary",
+   "link_count": 0,
+   "link_to": "Material Acquisition Summary",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Material Distribution Report",
+   "link_count": 0,
+   "link_to": "Material Distribution Report",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
  ],
  "modified": "2026-04-03 00:00:00.000000",
  "modified_by": "Administrator",
@@ -69,9 +367,28 @@
  "roles": [],
  "sequence_id": 1,
  "shortcuts": [
-  {"color": "Blue", "doc_view": "List", "label": "Construction Budget", "link_to": "Construction Budget", "type": "DocType"},
-  {"color": "Green", "doc_view": "List", "label": "Physical Advancement", "link_to": "Physical Advancement", "type": "DocType"},
-  {"color": "Orange", "doc_view": "List", "label": "Project Cost Entry", "link_to": "Project Cost Entry", "type": "DocType"}
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Construction Budget",
+   "link_to": "Construction Budget",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Physical Advancement",
+   "link_to": "Physical Advancement",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "Project Cost Entry",
+   "link_to": "Project Cost Entry",
+   "type": "DocType"
+  }
  ],
- "title": "Construct Projects"
+ "title": "Construct Projects",
+ "type": "Workspace"
 }

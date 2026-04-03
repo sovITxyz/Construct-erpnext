@@ -13,12 +13,52 @@
  "is_hidden": 0,
  "label": "Construct Production",
  "links": [
-  {"hidden": 0, "is_query_report": 0, "label": "Quality Control", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "SPC Control Chart", "link_count": 0, "link_to": "SPC Control Chart", "link_type": "DocType", "onboard": 1, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Corrective Action Tracker", "link_count": 0, "link_to": "Corrective Action Tracker", "link_type": "DocType", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Traceability", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Process Traceability Log", "link_count": 0, "link_to": "Process Traceability Log", "link_type": "DocType", "onboard": 1, "type": "Link"}
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Quality Control",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "SPC Control Chart",
+   "link_count": 0,
+   "link_to": "SPC Control Chart",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Corrective Action Tracker",
+   "link_count": 0,
+   "link_to": "Corrective Action Tracker",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Traceability",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Process Traceability Log",
+   "link_count": 0,
+   "link_to": "Process Traceability Log",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  }
  ],
  "modified": "2026-04-03 00:00:00.000000",
  "modified_by": "Administrator",
@@ -31,5 +71,6 @@
  "roles": [],
  "sequence_id": 6,
  "shortcuts": [],
- "title": "Construct Production"
+ "title": "Construct Production",
+ "type": "Workspace"
 }

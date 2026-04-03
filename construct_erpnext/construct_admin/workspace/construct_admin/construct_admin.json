@@ -13,18 +13,100 @@
  "is_hidden": 0,
  "label": "Construct Admin",
  "links": [
-  {"hidden": 0, "is_query_report": 0, "label": "Invoicing", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Invoice Authorization", "link_count": 0, "link_to": "Invoice Authorization", "link_type": "DocType", "onboard": 1, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Withholding Liquidation", "link_count": 0, "link_to": "Withholding Liquidation", "link_type": "DocType", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Advance Payment Tracker", "link_count": 0, "link_to": "Advance Payment Tracker", "link_type": "DocType", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "HR Administration", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Overtime Administration", "link_count": 0, "link_to": "Overtime Administration", "link_type": "DocType", "onboard": 1, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Vacation Policy", "link_count": 0, "link_to": "Vacation Policy", "link_type": "DocType", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Salary Adjustment Request", "link_count": 0, "link_to": "Salary Adjustment Request", "link_type": "DocType", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Reminders", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Payment Reminder Schedule", "link_count": 0, "link_to": "Payment Reminder Schedule", "link_type": "DocType", "onboard": 0, "type": "Link"}
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Invoicing",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Invoice Authorization",
+   "link_count": 0,
+   "link_to": "Invoice Authorization",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Withholding Liquidation",
+   "link_count": 0,
+   "link_to": "Withholding Liquidation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Advance Payment Tracker",
+   "link_count": 0,
+   "link_to": "Advance Payment Tracker",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "HR Administration",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Overtime Administration",
+   "link_count": 0,
+   "link_to": "Overtime Administration",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Vacation Policy",
+   "link_count": 0,
+   "link_to": "Vacation Policy",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Salary Adjustment Request",
+   "link_count": 0,
+   "link_to": "Salary Adjustment Request",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reminders",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payment Reminder Schedule",
+   "link_count": 0,
+   "link_to": "Payment Reminder Schedule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
  ],
  "modified": "2026-04-03 00:00:00.000000",
  "modified_by": "Administrator",
@@ -37,7 +119,14 @@
  "roles": [],
  "sequence_id": 3,
  "shortcuts": [
-  {"color": "Red", "doc_view": "List", "label": "Invoice Authorization", "link_to": "Invoice Authorization", "type": "DocType"}
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Invoice Authorization",
+   "link_to": "Invoice Authorization",
+   "type": "DocType"
+  }
  ],
- "title": "Construct Admin"
+ "title": "Construct Admin",
+ "type": "Workspace"
 }

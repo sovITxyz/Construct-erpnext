@@ -13,19 +13,110 @@
  "is_hidden": 0,
  "label": "Construct Finance",
  "links": [
-  {"hidden": 0, "is_query_report": 0, "label": "Treasury", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Check Request", "link_count": 0, "link_to": "Check Request", "link_type": "DocType", "onboard": 1, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Check Batch Print", "link_count": 0, "link_to": "Check Batch Print", "link_type": "DocType", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Alternative Payment Document", "link_count": 0, "link_to": "Alternative Payment Document", "link_type": "DocType", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Collections & Deposits", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Collection Document", "link_count": 0, "link_to": "Collection Document", "link_type": "DocType", "onboard": 1, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Deposit Entry", "link_count": 0, "link_to": "Deposit Entry", "link_type": "DocType", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Automation & Analysis", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Auto Journal Entry Rule", "link_count": 0, "link_to": "Auto Journal Entry Rule", "link_type": "DocType", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Financial Ratio", "link_count": 0, "link_to": "Financial Ratio", "link_type": "DocType", "onboard": 0, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Financial Ratio Result", "link_count": 0, "link_to": "Financial Ratio Result", "link_type": "DocType", "onboard": 0, "type": "Link"}
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Treasury",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Check Request",
+   "link_count": 0,
+   "link_to": "Check Request",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Check Batch Print",
+   "link_count": 0,
+   "link_to": "Check Batch Print",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Alternative Payment Document",
+   "link_count": 0,
+   "link_to": "Alternative Payment Document",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Collections & Deposits",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Collection Document",
+   "link_count": 0,
+   "link_to": "Collection Document",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Deposit Entry",
+   "link_count": 0,
+   "link_to": "Deposit Entry",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Automation & Analysis",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Auto Journal Entry Rule",
+   "link_count": 0,
+   "link_to": "Auto Journal Entry Rule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Financial Ratio",
+   "link_count": 0,
+   "link_to": "Financial Ratio",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Financial Ratio Result",
+   "link_count": 0,
+   "link_to": "Financial Ratio Result",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
  ],
  "modified": "2026-04-03 00:00:00.000000",
  "modified_by": "Administrator",
@@ -38,8 +129,21 @@
  "roles": [],
  "sequence_id": 2,
  "shortcuts": [
-  {"color": "Blue", "doc_view": "List", "label": "Check Request", "link_to": "Check Request", "type": "DocType"},
-  {"color": "Green", "doc_view": "List", "label": "Collection Document", "link_to": "Collection Document", "type": "DocType"}
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Check Request",
+   "link_to": "Check Request",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Collection Document",
+   "link_to": "Collection Document",
+   "type": "DocType"
+  }
  ],
- "title": "Construct Finance"
+ "title": "Construct Finance",
+ "type": "Workspace"
 }

@@ -13,12 +13,52 @@
  "is_hidden": 0,
  "label": "Construct Payroll",
  "links": [
-  {"hidden": 0, "is_query_report": 0, "label": "Payroll", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Payroll Movement", "link_count": 0, "link_to": "Payroll Movement", "link_type": "DocType", "onboard": 1, "type": "Link"},
-  {"hidden": 0, "is_query_report": 0, "label": "Employee Loan", "link_count": 0, "link_to": "Employee Loan", "link_type": "DocType", "onboard": 0, "type": "Link"},
-
-  {"hidden": 0, "is_query_report": 0, "label": "Cost Distribution", "link_count": 0, "onboard": 0, "type": "Card Break"},
-  {"hidden": 0, "is_query_report": 0, "label": "Payroll Cost Distribution", "link_count": 0, "link_to": "Payroll Cost Distribution", "link_type": "DocType", "onboard": 0, "type": "Link"}
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payroll",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payroll Movement",
+   "link_count": 0,
+   "link_to": "Payroll Movement",
+   "link_type": "DocType",
+   "onboard": 1,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Employee Loan",
+   "link_count": 0,
+   "link_to": "Employee Loan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cost Distribution",
+   "link_count": 0,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Payroll Cost Distribution",
+   "link_count": 0,
+   "link_to": "Payroll Cost Distribution",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
  ],
  "modified": "2026-04-03 00:00:00.000000",
  "modified_by": "Administrator",
@@ -31,7 +71,14 @@
  "roles": [],
  "sequence_id": 4,
  "shortcuts": [
-  {"color": "Blue", "doc_view": "List", "label": "Payroll Movement", "link_to": "Payroll Movement", "type": "DocType"}
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Payroll Movement",
+   "link_to": "Payroll Movement",
+   "type": "DocType"
+  }
  ],
- "title": "Construct Payroll"
+ "title": "Construct Payroll",
+ "type": "Workspace"
 }
