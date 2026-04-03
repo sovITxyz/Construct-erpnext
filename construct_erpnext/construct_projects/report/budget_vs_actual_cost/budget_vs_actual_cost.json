@@ -1,0 +1,10 @@
+{
+ "name": "Budget vs Actual Cost",
+ "doctype": "Report",
+ "report_name": "Budget vs Actual Cost",
+ "ref_doctype": "Construction Budget",
+ "module": "Construct Projects",
+ "report_type": "Script Report",
+ "is_standard": "Yes",
+ "disabled": 0
+}

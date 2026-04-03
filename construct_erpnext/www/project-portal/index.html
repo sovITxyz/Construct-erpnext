@@ -2,7 +2,7 @@
 
 {% block page_content %}
 <div class="container mt-4">
-    <h2>My Projects</h2>
+    <h2>{{ _("My Projects") }}</h2>
     <div class="row mt-3">
         {% for project in projects %}
         <div class="col-md-6 mb-3">
@@ -11,7 +11,7 @@
                     <h5 class="card-title">
                         <a href="/project-portal/{{ project.name }}">{{ project.project_name }}</a>
                     </h5>
-                    <p class="text-muted">{{ project.status or "Open" }}</p>
+                    <p class="text-muted">{{ project.status or _("Open") }}</p>
                     <div class="progress mb-2">
                         <div class="progress-bar" role="progressbar"
                              style="width: {{ project.percent_complete or 0 }}%">
@@ -20,11 +20,11 @@
                     </div>
                     <div class="row text-center">
                         <div class="col">
-                            <small class="text-muted">Budget</small><br>
+                            <small class="text-muted">{{ _("Budget") }}</small><br>
                             <strong>{{ frappe.format_value(project.estimated_costing or 0, {"fieldtype": "Currency"}) }}</strong>
                         </div>
                         <div class="col">
-                            <small class="text-muted">Actual</small><br>
+                            <small class="text-muted">{{ _("Actual") }}</small><br>
                             <strong>{{ frappe.format_value(project.total_costing_amount or 0, {"fieldtype": "Currency"}) }}</strong>
                         </div>
                     </div>
@@ -34,7 +34,7 @@
         {% endfor %}
         {% if not projects %}
         <div class="col-12">
-            <p class="text-muted">No projects found.</p>
+            <p class="text-muted">{{ _("No projects found.") }}</p>
         </div>
         {% endif %}
     </div>

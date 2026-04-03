@@ -1,0 +1,10 @@
+{
+ "name": "Revenue vs Billing",
+ "doctype": "Report",
+ "report_name": "Revenue vs Billing",
+ "ref_doctype": "Project Revenue",
+ "module": "Construct Projects",
+ "report_type": "Script Report",
+ "is_standard": "Yes",
+ "disabled": 0
+}

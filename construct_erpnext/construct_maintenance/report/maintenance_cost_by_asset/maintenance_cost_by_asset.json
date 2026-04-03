@@ -1,0 +1,10 @@
+{
+ "name": "Maintenance Cost by Asset",
+ "doctype": "Report",
+ "report_name": "Maintenance Cost by Asset",
+ "ref_doctype": "Downtime Record",
+ "module": "Construct Maintenance",
+ "report_type": "Script Report",
+ "is_standard": "Yes",
+ "disabled": 0
+}

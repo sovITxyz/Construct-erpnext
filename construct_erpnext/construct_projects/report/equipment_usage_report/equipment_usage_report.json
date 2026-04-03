@@ -1,0 +1,10 @@
+{
+ "name": "Equipment Usage Report",
+ "doctype": "Report",
+ "report_name": "Equipment Usage Report",
+ "ref_doctype": "Equipment Usage Log",
+ "module": "Construct Projects",
+ "report_type": "Script Report",
+ "is_standard": "Yes",
+ "disabled": 0
+}

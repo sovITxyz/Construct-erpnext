@@ -58,7 +58,7 @@
    "fieldtype": "Select",
    "in_list_view": 1,
    "label": "Overtime Type",
-   "options": "Standard\nDouble\nCustom",
+   "options": "Diurna\nNocturna\nStandard\nDouble\nCustom",
    "reqd": 1
   },
   {

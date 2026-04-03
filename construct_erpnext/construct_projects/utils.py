@@ -40,3 +40,45 @@ def get_advancement_pct(project):
 	)
 
 	return flt(advancement) if advancement else 0.0
+
+
+def get_project_cost_breakdown(project):
+	"""Return Project Cost Entry totals grouped by cost_type.
+
+	Returns a list of dicts: [{"cost_type": "Material", "total_amount": 50000.0}, ...]
+	"""
+	results = frappe.db.sql(
+		"""
+		SELECT cost_type, SUM(amount) AS total_amount
+		FROM `tabProject Cost Entry`
+		WHERE project = %s AND docstatus = 1
+		GROUP BY cost_type
+		ORDER BY total_amount DESC
+		""",
+		(project,),
+		as_dict=True,
+	)
+
+	return [
+		{"cost_type": r.cost_type, "total_amount": flt(r.total_amount)}
+		for r in results
+	]
+
+
+def get_project_schedule_status(project):
+	"""Return Activity Schedule counts grouped by status.
+
+	Returns a dict: {"Not Started": 5, "In Progress": 3, "Completed": 2, "Delayed": 1}
+	"""
+	results = frappe.db.sql(
+		"""
+		SELECT status, COUNT(*) AS cnt
+		FROM `tabActivity Schedule`
+		WHERE project = %s
+		GROUP BY status
+		""",
+		(project,),
+		as_dict=True,
+	)
+
+	return {r.status: r.cnt for r in results}

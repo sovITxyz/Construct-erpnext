@@ -2,16 +2,16 @@
 
 {% block page_content %}
 <div class="container mt-4">
-    <h2>Authorize Advancement</h2>
-    <p class="text-muted">Review and authorize project advancement reports.</p>
+    <h2>{{ _("Authorize Advancement") }}</h2>
+    <p class="text-muted">{{ _("Review and authorize project advancement reports.") }}</p>
     <table class="table table-striped mt-3">
         <thead>
             <tr>
-                <th>Project</th>
-                <th>Date</th>
-                <th>Advancement</th>
-                <th>Type</th>
-                <th>Action</th>
+                <th>{{ _("Project") }}</th>
+                <th>{{ _("Date") }}</th>
+                <th>{{ _("Advancement") }}</th>
+                <th>{{ _("Type") }}</th>
+                <th>{{ _("Action") }}</th>
             </tr>
         </thead>
         <tbody>
@@ -22,12 +22,12 @@
                 <td>{{ adv.advancement_pct }}%</td>
                 <td>{{ adv.advancement_type }}</td>
                 <td>
-                    <a href="/advancement-auth/{{ adv.name }}" class="btn btn-sm btn-primary">Review</a>
+                    <a href="/advancement-auth/{{ adv.name }}" class="btn btn-sm btn-primary">{{ _("Review") }}</a>
                 </td>
             </tr>
             {% endfor %}
             {% if not advancements %}
-            <tr><td colspan="5" class="text-muted">No pending advancements to authorize.</td></tr>
+            <tr><td colspan="5" class="text-muted">{{ _("No pending advancements to authorize.") }}</td></tr>
             {% endif %}
         </tbody>
     </table>

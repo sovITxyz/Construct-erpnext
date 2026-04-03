@@ -1,6 +1,7 @@
 import frappe
 from erpnext.projects.doctype.project.project import Project
 
+
 class ConstructProject(Project):
     def validate(self):
         super().validate()
@@ -30,3 +31,37 @@ class ConstructProject(Project):
         )
         if latest is not None:
             self.percent_complete = latest
+
+    def get_dashboard_data(self):
+        """Override dashboard to add links to construction-specific DocTypes."""
+        data = super().get_dashboard_data() if hasattr(super(), "get_dashboard_data") else {
+            "fieldname": "project",
+            "non_standard_fieldnames": {},
+            "transactions": [],
+        }
+
+        construction_links = [
+            {
+                "label": "Construction Budget",
+                "items": ["Construction Budget"],
+            },
+            {
+                "label": "Advancement & Scheduling",
+                "items": ["Physical Advancement", "Activity Schedule"],
+            },
+            {
+                "label": "Subcontracts & Resources",
+                "items": ["Subcontract", "Equipment Usage Log", "Labor Hour Entry"],
+            },
+            {
+                "label": "Cost Tracking",
+                "items": ["Project Cost Entry"],
+            },
+        ]
+
+        if "transactions" not in data:
+            data["transactions"] = []
+
+        data["transactions"].extend(construction_links)
+
+        return data
