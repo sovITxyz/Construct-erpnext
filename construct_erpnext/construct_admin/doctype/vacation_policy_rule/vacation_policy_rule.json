@@ -6,7 +6,8 @@
  "field_order": [
   "years_of_service_start",
   "years_of_service_end",
-  "vacation_days_entitled"
+  "vacation_days_entitled",
+  "bonus_percentage"
  ],
  "fields": [
   {
@@ -29,6 +30,14 @@
    "in_list_view": 1,
    "label": "Vacation Days Entitled",
    "reqd": 1
+  },
+  {
+   "default": "0",
+   "description": "Vacation pay bonus percentage (e.g. 30 for El Salvador)",
+   "fieldname": "bonus_percentage",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Bonus Percentage"
   }
  ],
  "index_web_pages_for_search": 0,
