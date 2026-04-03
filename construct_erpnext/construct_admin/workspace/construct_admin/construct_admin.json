@@ -1,0 +1,43 @@
+{
+ "app": "construct_erpnext",
+ "charts": [],
+ "content": "[{\"id\":\"ca_hdr1\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Invoicing & Tax</b></span>\",\"col\":12}},{\"id\":\"ca_c1\",\"type\":\"card\",\"data\":{\"card_name\":\"Invoicing\",\"col\":4}},{\"id\":\"ca_c2\",\"type\":\"card\",\"data\":{\"card_name\":\"HR Administration\",\"col\":4}},{\"id\":\"ca_c3\",\"type\":\"card\",\"data\":{\"card_name\":\"Reminders\",\"col\":4}}]",
+ "creation": "2026-04-03 00:00:00.000000",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "setting-gear",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Construct Admin",
+ "links": [
+  {"hidden": 0, "is_query_report": 0, "label": "Invoicing", "link_count": 0, "onboard": 0, "type": "Card Break"},
+  {"hidden": 0, "is_query_report": 0, "label": "Invoice Authorization", "link_count": 0, "link_to": "Invoice Authorization", "link_type": "DocType", "onboard": 1, "type": "Link"},
+  {"hidden": 0, "is_query_report": 0, "label": "Withholding Liquidation", "link_count": 0, "link_to": "Withholding Liquidation", "link_type": "DocType", "onboard": 0, "type": "Link"},
+  {"hidden": 0, "is_query_report": 0, "label": "Advance Payment Tracker", "link_count": 0, "link_to": "Advance Payment Tracker", "link_type": "DocType", "onboard": 0, "type": "Link"},
+
+  {"hidden": 0, "is_query_report": 0, "label": "HR Administration", "link_count": 0, "onboard": 0, "type": "Card Break"},
+  {"hidden": 0, "is_query_report": 0, "label": "Overtime Administration", "link_count": 0, "link_to": "Overtime Administration", "link_type": "DocType", "onboard": 1, "type": "Link"},
+  {"hidden": 0, "is_query_report": 0, "label": "Vacation Policy", "link_count": 0, "link_to": "Vacation Policy", "link_type": "DocType", "onboard": 0, "type": "Link"},
+  {"hidden": 0, "is_query_report": 0, "label": "Salary Adjustment Request", "link_count": 0, "link_to": "Salary Adjustment Request", "link_type": "DocType", "onboard": 0, "type": "Link"},
+
+  {"hidden": 0, "is_query_report": 0, "label": "Reminders", "link_count": 0, "onboard": 0, "type": "Card Break"},
+  {"hidden": 0, "is_query_report": 0, "label": "Payment Reminder Schedule", "link_count": 0, "link_to": "Payment Reminder Schedule", "link_type": "DocType", "onboard": 0, "type": "Link"}
+ ],
+ "modified": "2026-04-03 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Construct Admin",
+ "name": "Construct Admin",
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "restrict_to_domain": "",
+ "roles": [],
+ "sequence_id": 3,
+ "shortcuts": [
+  {"color": "Red", "doc_view": "List", "label": "Invoice Authorization", "link_to": "Invoice Authorization", "type": "DocType"}
+ ],
+ "title": "Construct Admin"
+}
