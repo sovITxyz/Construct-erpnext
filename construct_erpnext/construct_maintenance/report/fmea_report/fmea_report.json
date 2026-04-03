@@ -3,7 +3,7 @@
  "doctype": "Report",
  "report_name": "FMEA Report",
  "ref_doctype": "Failure Mode",
- "module": "Construct Maintenance",
+ "module": "GCS Maintenance",
  "report_type": "Script Report",
  "is_standard": "Yes",
  "disabled": 0

@@ -3,7 +3,7 @@
  "doctype": "Report",
  "report_name": "Material Acquisition Summary",
  "ref_doctype": "Material Request",
- "module": "Construct Projects",
+ "module": "GCS Projects",
  "report_type": "Script Report",
  "is_standard": "Yes",
  "disabled": 0

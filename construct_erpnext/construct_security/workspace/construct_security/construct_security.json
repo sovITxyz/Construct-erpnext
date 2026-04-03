@@ -11,7 +11,7 @@
  "icon": "lock",
  "idx": 0,
  "is_hidden": 0,
- "label": "Construct Security",
+ "label": "GCS Security",
  "links": [
   {
    "hidden": 0,
@@ -92,8 +92,8 @@
  ],
  "modified": "2026-04-03 00:00:00.000000",
  "modified_by": "Administrator",
- "module": "Construct Security",
- "name": "Construct Security",
+ "module": "GCS Security",
+ "name": "GCS Security",
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
@@ -101,6 +101,6 @@
  "roles": [],
  "sequence_id": 7,
  "shortcuts": [],
- "title": "Construct Security",
+ "title": "GCS Security",
  "type": "Workspace"
 }

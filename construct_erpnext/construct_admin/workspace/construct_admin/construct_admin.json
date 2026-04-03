@@ -11,7 +11,7 @@
  "icon": "setting-gear",
  "idx": 0,
  "is_hidden": 0,
- "label": "Construct Admin",
+ "label": "GCS Admin",
  "links": [
   {
    "hidden": 0,
@@ -110,8 +110,8 @@
  ],
  "modified": "2026-04-03 00:00:00.000000",
  "modified_by": "Administrator",
- "module": "Construct Admin",
- "name": "Construct Admin",
+ "module": "GCS Admin",
+ "name": "GCS Admin",
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
@@ -127,6 +127,6 @@
    "type": "DocType"
   }
  ],
- "title": "Construct Admin",
+ "title": "GCS Admin",
  "type": "Workspace"
 }

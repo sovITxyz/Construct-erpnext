@@ -3,7 +3,7 @@
  "doctype": "Report",
  "report_name": "Project Cost Summary",
  "ref_doctype": "Project Cost Entry",
- "module": "Construct Projects",
+ "module": "GCS Projects",
  "report_type": "Script Report",
  "is_standard": "Yes",
  "disabled": 0

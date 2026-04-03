@@ -3,7 +3,7 @@
  "doctype": "Report",
  "report_name": "Advancement vs Cost",
  "ref_doctype": "Physical Advancement",
- "module": "Construct Projects",
+ "module": "GCS Projects",
  "report_type": "Script Report",
  "is_standard": "Yes",
  "disabled": 0

@@ -11,7 +11,7 @@
  "icon": "maintenance",
  "idx": 0,
  "is_hidden": 0,
- "label": "Construct Maintenance",
+ "label": "GCS Maintenance",
  "links": [
   {
    "hidden": 0,
@@ -140,8 +140,8 @@
  ],
  "modified": "2026-04-03 00:00:00.000000",
  "modified_by": "Administrator",
- "module": "Construct Maintenance",
- "name": "Construct Maintenance",
+ "module": "GCS Maintenance",
+ "name": "GCS Maintenance",
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
@@ -157,6 +157,6 @@
    "type": "DocType"
   }
  ],
- "title": "Construct Maintenance",
+ "title": "GCS Maintenance",
  "type": "Workspace"
 }

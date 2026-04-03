@@ -116,7 +116,7 @@
  "links": [],
  "modified": "2026-03-28 00:00:00.000000",
  "modified_by": "Administrator",
- "module": "Construct Projects",
+ "module": "GCS Projects",
  "name": "Equipment Usage Log",
  "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",

@@ -3,7 +3,7 @@
  "doctype": "Report",
  "report_name": "Revenue vs Billing",
  "ref_doctype": "Project Revenue",
- "module": "Construct Projects",
+ "module": "GCS Projects",
  "report_type": "Script Report",
  "is_standard": "Yes",
  "disabled": 0
