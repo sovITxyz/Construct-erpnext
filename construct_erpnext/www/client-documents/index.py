@@ -5,7 +5,7 @@ def get_context(context):
     if user == "Guest":
         frappe.throw("Please log in.", frappe.PermissionError)
 
-    from construct_erpnext.construct_portal.utils import get_client_projects
+    from construct_erpnext.gcs_portal.utils import get_client_projects
     project_names = get_client_projects(user)
 
     projects = []

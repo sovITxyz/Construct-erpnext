@@ -11,7 +11,7 @@ def get_context(context):
 
     advancement = frappe.get_doc("Physical Advancement", adv_name)
 
-    from construct_erpnext.construct_portal.utils import get_client_projects
+    from construct_erpnext.gcs_portal.utils import get_client_projects
     accessible = get_client_projects(user)
     if advancement.project not in accessible:
         frappe.throw("Access denied.", frappe.PermissionError)

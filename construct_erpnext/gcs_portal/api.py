@@ -5,7 +5,7 @@ def authorize_advancement(advancement, authorized_pct, comments=None):
     """Portal API to authorize a physical advancement."""
     user = frappe.session.user
 
-    from construct_erpnext.construct_portal.utils import get_client_projects
+    from construct_erpnext.gcs_portal.utils import get_client_projects
     accessible = get_client_projects(user)
 
     adv = frappe.get_doc("Physical Advancement", advancement)

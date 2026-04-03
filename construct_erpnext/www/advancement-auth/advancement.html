@@ -29,7 +29,7 @@
 
     {% if can_authorize %}
     <div class="mt-3">
-        <form method="POST" action="/api/method/construct_erpnext.construct_portal.api.authorize_advancement">
+        <form method="POST" action="/api/method/construct_erpnext.gcs_portal.api.authorize_advancement">
             <input type="hidden" name="csrf_token" value="{{ frappe.session.csrf_token }}">
             <input type="hidden" name="advancement" value="{{ advancement.name }}">
             <div class="form-group">
